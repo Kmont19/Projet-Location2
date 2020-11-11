@@ -141,7 +141,7 @@ Partial Class IReservation
         Me.ReservButton.Name = "ReservButton"
         Me.ReservButton.Size = New System.Drawing.Size(110, 72)
         Me.ReservButton.TabIndex = 5
-        Me.ReservButton.Text = "Ajouter un Emprunt"
+        Me.ReservButton.Text = "Ajouter une réservation"
         Me.ReservButton.UseVisualStyleBackColor = False
         '
         'ListView1

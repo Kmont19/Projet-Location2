@@ -56,7 +56,7 @@ Partial Class IAnnulerReservation
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(586, 58)
         Me.Label13.TabIndex = 112
-        Me.Label13.Text = "Annuler"
+        Me.Label13.Text = "Annuler une réservation"
         Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'BackButton
