@@ -466,6 +466,9 @@
     <EmbeddedResource Include="AppBundle\UserControls\Reservation\IReservSearch.resx">
       <DependentUpon>IReservSearch.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AppBundle\UserControls\Utilisateurs\IUsers.resx">
+      <DependentUpon>IUsers.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
