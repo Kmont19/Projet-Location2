@@ -21,5 +21,6 @@
         'Test''ewqfdgasdifsf"
         'Test''ewqfdgasdifsf"
         'asdfasdfasdfasdfasdfasdfasdfasdfasdfasdf'
+        'asdfasdfasdfasdfasdfasdfasdfasdfasdfasdf'
     End Sub
 End Class
