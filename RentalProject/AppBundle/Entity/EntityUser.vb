@@ -23,6 +23,31 @@ Public Class EntityUser
         Return table
     End Function
 
+    Public Function getUsersByMatricule(matricule As Integer) As DataTable
+        Dim command As New MySqlCommand
+        command.Connection = connection
+        command.CommandText = $"Select matricule, statut from utilisateur where matricule = {matricule}"
+        connection.Open()
+        Dim reader = command.ExecuteReader()
+        Dim table As New DataTable("utilisateur")
+        table.Load(reader)
+        connection.Close()
+        Return table
+    End Function
+
+    Public Function getUsersByStatut(statut As String) As DataTable
+        Dim command As New MySqlCommand
+        command.Connection = connection
+        command.CommandText = $"Select matricule, statut from utilisateur where upper(statut) like upper('{statut}')"
+        connection.Open()
+        Dim reader = command.ExecuteReader()
+        Dim table As New DataTable("utilisateur")
+        table.Load(reader)
+        connection.Close()
+        Return table
+    End Function
+
+
     Public Function verifUser(matricule As Integer, password As String) As Boolean
 
         Dim verif = False
