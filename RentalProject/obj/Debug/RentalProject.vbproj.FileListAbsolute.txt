@@ -521,3 +521,5 @@ C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet-L
 C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet-Location2\RentalProject\obj\Debug\RentalProject.exe
 C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet-Location2\RentalProject\obj\Debug\RentalProject.xml
 C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet-Location2\RentalProject\obj\Debug\RentalProject.pdb
+D:\NOUVEAU_PROJET_INVENTAIRE\PROJET_3\Projet-Location2\RentalProject\obj\Debug\RentalProject.IUsers.resources
+D:\NOUVEAU_PROJET_INVENTAIRE\PROJET_3\Projet-Location2\RentalProject\obj\Debug\RentalProject.IUserSearch.resources

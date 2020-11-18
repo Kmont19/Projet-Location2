@@ -2,6 +2,8 @@
 
 Public Class ModelRental
 
+    Dim EntityStats As EntityStats
+
     Public connectionString = $"{MainForm.getInstance.connectionString}Convert Zero Datetime=True"
     Dim connection As New MySqlConnection(connectionString)
     Shared instance As ModelRental = Nothing
@@ -68,12 +70,27 @@ Public Class ModelRental
                               ByVal duree As String,
                               ByVal dateRetour As Date,
                               ByVal commentaires As String)
+        Dim MyWeekDay
+
         Try
-            Dim command As New MySqlCommand
+        Dim command As New MySqlCommand
             command.Connection = connection
             connection.Open()
             command.CommandText = $"insert into emprunt values({NoEmprunt},{noPersonne},'{noEquipement}', '{autorisation}', '{dateEmprunt.ToString("yyyy-MM-dd HH:mm:ss")}','{duree}', '{dateRetour.ToString("yyyy-MM-dd HH:mm:ss")}', '{commentaires}')"
+            MyWeekDay = getDayNumberOld(dateEmprunt)
 
+            Select Case MyWeekDay
+                Case 2
+                    EntityStats.getInstance().AddStats(1)
+                Case 3
+                    EntityStats.getInstance().AddStats(2)
+                Case 4
+                    EntityStats.getInstance().AddStats(3)
+                Case 5
+                    EntityStats.getInstance().AddStats(4)
+                Case 6
+                    EntityStats.getInstance().AddStats(5)
+            End Select
             Dim result = command.ExecuteNonQuery()
             connection.Close()
         Catch ex As Exception
@@ -81,6 +98,16 @@ Public Class ModelRental
         End Try
     End Function
 
+
+    Public Function getDayNumberOld(ByVal dateEmprunt As Date)
+
+        Dim MyDate, MyWeekDay
+        MyDate = dateEmprunt
+        MyWeekDay = Weekday(MyDate)
+
+        Return MyWeekDay
+
+    End Function
 
 
     ''' <summary>
