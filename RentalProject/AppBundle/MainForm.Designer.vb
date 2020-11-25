@@ -26,6 +26,7 @@ Partial Class MainForm
         Me.HeaderBar = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.MenuPanel = New System.Windows.Forms.Panel()
+        Me.UsersButton = New System.Windows.Forms.Button()
         Me.NotifyButton = New System.Windows.Forms.Button()
         Me.StatsButton = New System.Windows.Forms.Button()
         Me.TimesheetButton = New System.Windows.Forms.Button()
@@ -36,7 +37,6 @@ Partial Class MainForm
         Me.ReturnButton = New System.Windows.Forms.Button()
         Me.RentalsButton = New System.Windows.Forms.Button()
         Me.InterfacePanel = New System.Windows.Forms.Panel()
-        Me.UsersButton = New System.Windows.Forms.Button()
         Me.HeaderBar.SuspendLayout()
         Me.MenuPanel.SuspendLayout()
         Me.SuspendLayout()
@@ -85,6 +85,24 @@ Partial Class MainForm
         Me.MenuPanel.Name = "MenuPanel"
         Me.MenuPanel.Size = New System.Drawing.Size(150, 542)
         Me.MenuPanel.TabIndex = 1
+        '
+        'UsersButton
+        '
+        Me.UsersButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.UsersButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.UsersButton.Dock = System.Windows.Forms.DockStyle.Top
+        Me.UsersButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
+        Me.UsersButton.FlatAppearance.BorderSize = 2
+        Me.UsersButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.UsersButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.UsersButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UsersButton.Location = New System.Drawing.Point(0, 376)
+        Me.UsersButton.Margin = New System.Windows.Forms.Padding(2)
+        Me.UsersButton.Name = "UsersButton"
+        Me.UsersButton.Size = New System.Drawing.Size(150, 47)
+        Me.UsersButton.TabIndex = 10
+        Me.UsersButton.Text = "Utilisateurs"
+        Me.UsersButton.UseVisualStyleBackColor = False
         '
         'NotifyButton
         '
@@ -257,24 +275,6 @@ Partial Class MainForm
         Me.InterfacePanel.Name = "InterfacePanel"
         Me.InterfacePanel.Size = New System.Drawing.Size(1004, 542)
         Me.InterfacePanel.TabIndex = 2
-        '
-        'UsersButton
-        '
-        Me.UsersButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
-        Me.UsersButton.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.UsersButton.Dock = System.Windows.Forms.DockStyle.Top
-        Me.UsersButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
-        Me.UsersButton.FlatAppearance.BorderSize = 2
-        Me.UsersButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(243, Byte), Integer))
-        Me.UsersButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.UsersButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.UsersButton.Location = New System.Drawing.Point(0, 376)
-        Me.UsersButton.Margin = New System.Windows.Forms.Padding(2)
-        Me.UsersButton.Name = "UsersButton"
-        Me.UsersButton.Size = New System.Drawing.Size(150, 47)
-        Me.UsersButton.TabIndex = 10
-        Me.UsersButton.Text = "Utilisateurs"
-        Me.UsersButton.UseVisualStyleBackColor = False
         '
         'MainForm
         '

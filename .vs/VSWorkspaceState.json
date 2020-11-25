@@ -3,13 +3,12 @@
     "",
     "\\RentalProject",
     "\\RentalProject\\AppBundle",
-    "\\RentalProject\\AppBundle\\Entity",
-    "\\RentalProject\\AppBundle\\Model",
     "\\RentalProject\\AppBundle\\UserControls",
     "\\RentalProject\\AppBundle\\UserControls\\horaire",
     "\\RentalProject\\AppBundle\\UserControls\\Notification",
-    "\\RentalProject\\AppBundle\\UserControls\\statistique"
+    "\\RentalProject\\AppBundle\\UserControls\\statistique",
+    "\\RentalProject\\obj"
   ],
-  "SelectedNode": "\\RentalProject\\AppBundle\\Entity\\EntityReturn.vb",
+  "SelectedNode": "\\RentalProject\\AppBundle\\UserControls\\horaire\\iCalendar.Designer.vb",
   "PreviewInSolutionExplorer": false
 }

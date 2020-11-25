@@ -403,5 +403,20 @@ RentalProject
  <param name="sender"></param>
  <param name="e"></param>
 </member>
+<member name="M:RentalProject.IUserSearch.Radio_CheckedChanged(System.Object,System.EventArgs)">
+ <summary>
+ Fait la gestion des champs textes lorsq'un boutton radio différent
+ est sélectionné.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:RentalProject.IUserSearch.SearchButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Fait la gestion des valeurs entrées dans les champs textes.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
 </members>
 </doc>
