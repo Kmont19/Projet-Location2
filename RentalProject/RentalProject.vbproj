@@ -15,6 +15,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -27,7 +28,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -150,6 +150,12 @@
     <Compile Include="AppBundle\Model\ModelRental.vb" />
     <Compile Include="AppBundle\Model\ModelReservation.vb" />
     <Compile Include="AppBundle\Model\ModelReturn.vb" />
+    <Compile Include="AppBundle\UserControls\Horaire\iCalendar.Designer.vb">
+      <DependentUpon>iCalendar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AppBundle\UserControls\Horaire\iCalendar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="AppBundle\Model\ModelUsers.vb" />
     <Compile Include="AppBundle\UserControls\Horaire\ItemInfo.vb" />
     <Compile Include="AppBundle\UserControls\ICategorieAutre.Designer.vb">
@@ -384,6 +390,9 @@
     <EmbeddedResource Include="AppBundle\MainForm.resx">
       <DependentUpon>MainForm.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AppBundle\UserControls\Horaire\iCalendar.resx">
+      <DependentUpon>iCalendar.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AppBundle\UserControls\Horaire\ITimeSheet.resx">
       <DependentUpon>ITimeSheet.vb</DependentUpon>
     </EmbeddedResource>
@@ -544,7 +553,7 @@
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
       <Visible>False</Visible>
-      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 et x64%29</ProductName>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">

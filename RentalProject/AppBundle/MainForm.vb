@@ -2,7 +2,8 @@
 
     Private isMouseDown As Boolean = False
     Private mouseOffset As Point
-    Public connectionString = "Server='localhost';Database='projetsession';Uid='root';Pwd='';Port=3308;"
+    'Public connectionString = "Server='localhost';Database='projetsession';Uid='root';Pwd='';Port=3308;"
+    Public connectionString = "Server='projectcegep2020tr.hopto.org';Database='projetsession';Uid='root';Pwd='root';Port=3306;"
     Shared instance As MainForm = Nothing
 
     Private Sub MainForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -89,10 +90,14 @@
 
     Private Sub TimesheetButton_Click(sender As Object, e As EventArgs) Handles TimesheetButton.Click
         InterfacePanel.Controls.Clear()
-        Dim timesheet As New ITimeSheet()
-        timesheet.Dock = DockStyle.Fill
-        InterfacePanel.Controls.Add(timesheet)
-        timesheet.BringToFront()
+        'Dim timesheet As New ITimeSheet()
+        'timesheet.Dock = DockStyle.Fill
+        'InterfacePanel.Controls.Add(timesheet)
+        'timesheet.BringToFront()
+        Dim Calendar As New iCalendar()
+        Calendar.Dock = DockStyle.Fill
+        InterfacePanel.Controls.Add(Calendar)
+        Calendar.BringToFront()
     End Sub
 
     'Private Sub StatsButton_Click(sender As Object, e As EventArgs) Handles StatsButton.Click

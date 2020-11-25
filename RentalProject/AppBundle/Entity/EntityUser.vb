@@ -58,17 +58,22 @@ Public Class EntityUser
         Dim command As New MySqlCommand
         command.Connection = connection
         command.CommandText = $"Select count(*) from utilisateur where matricule = {matricule} and password LIKE '{password}'"
-        connection.Open()
 
-        Dim result = command.ExecuteScalar()
+        Try
+            connection.Open()
+            Dim result = command.ExecuteScalar()
 
-        If (result = 1) Then
-            verif = True
-        Else
-            verif = False
-        End If
+            If (result = 1) Then
+                verif = True
+            Else
+                verif = False
+            End If
 
-        connection.Close()
+            connection.Close()
+        Catch ex As Exception
+            MsgBox("Can't load Web page" & vbCrLf & ex.Message)
+        End Try
+
         Return verif
     End Function
 
