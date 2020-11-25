@@ -129,6 +129,7 @@
     <Compile Include="AppBundle\Controllers\ControllerAutoComplete.vb" />
     <Compile Include="AppBundle\Controllers\ControllerDates.vb" />
     <Compile Include="AppBundle\Entity\EntityCategory.vb" />
+    <Compile Include="AppBundle\Entity\EntityStats.vb" />
     <Compile Include="AppBundle\Entity\EntityUser.vb" />
     <Compile Include="AppBundle\Entity\EntityEquipment.vb" />
     <Compile Include="AppBundle\Entity\EntityPerson.vb" />
@@ -149,6 +150,7 @@
     <Compile Include="AppBundle\Model\ModelRental.vb" />
     <Compile Include="AppBundle\Model\ModelReservation.vb" />
     <Compile Include="AppBundle\Model\ModelReturn.vb" />
+    <Compile Include="AppBundle\Model\ModelUsers.vb" />
     <Compile Include="AppBundle\UserControls\Horaire\ItemInfo.vb" />
     <Compile Include="AppBundle\UserControls\ICategorieAutre.Designer.vb">
       <DependentUpon>ICategorieAutre.vb</DependentUpon>
@@ -346,6 +348,12 @@
     <Compile Include="AppBundle\UserControls\Utilisateurs\IUsers.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="AppBundle\UserControls\Utilisateurs\IUserSearch.Designer.vb">
+      <DependentUpon>IUserSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AppBundle\UserControls\Utilisateurs\IUserSearch.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="ApplicationEvents.vb" />
     <Compile Include="Model1.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -468,6 +476,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AppBundle\UserControls\Utilisateurs\IUsers.resx">
       <DependentUpon>IUsers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppBundle\UserControls\Utilisateurs\IUserSearch.resx">
+      <DependentUpon>IUserSearch.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
