@@ -73,10 +73,14 @@ Public Class ModelRental
         Dim MyWeekDay
 
         Try
-        Dim command As New MySqlCommand
+            Dim command As New MySqlCommand
+
+
             command.Connection = connection
+
             connection.Open()
             command.CommandText = $"insert into emprunt values({NoEmprunt},{noPersonne},'{noEquipement}', '{autorisation}', '{dateEmprunt.ToString("yyyy-MM-dd HH:mm:ss")}','{duree}', '{dateRetour.ToString("yyyy-MM-dd HH:mm:ss")}', '{commentaires}')"
+
             MyWeekDay = getDayNumberOld(dateEmprunt)
 
             Select Case MyWeekDay
@@ -96,6 +100,22 @@ Public Class ModelRental
         Catch ex As Exception
             MessageBox.Show("Une erreur s'est produite lors de l'ajout.")
         End Try
+
+        nbrEmprunt(noEquipement)
+
+    End Function
+
+    Public Function nbrEmprunt(noequipement)
+
+        Dim command As New MySqlCommand
+        command.Connection = connection
+        command.CommandText = $"update equipement set nbrEmprunt=nbrEmprunt+1 where noequipement='{noequipement}'"
+        connection.Open()
+        command.ExecuteNonQuery()
+        connection.Close()
+
+
+
     End Function
 
 

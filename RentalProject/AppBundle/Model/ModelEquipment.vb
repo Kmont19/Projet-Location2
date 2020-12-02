@@ -34,7 +34,7 @@ Public Class ModelEquipment
         Try
             Dim command As New MySqlCommand
             command.Connection = connection
-            command.CommandText = $"insert into equipement values ('{noequipement}','{nom}','{nocategorie}','{etat}','{disponibilite}')"
+            command.CommandText = $"insert into equipement values ('{noequipement}','{nom}','{nocategorie}','{etat}','{disponibilite}', 0)"
             connection.Open()
             Dim add As Integer = command.ExecuteNonQuery()
             connection.Close()
@@ -43,6 +43,7 @@ Public Class ModelEquipment
             connection.Close()
         End Try
     End Function
+
 
     'on supprime un Équipement de la table via son ID
     Public Function delequipement(noequipement As String)
