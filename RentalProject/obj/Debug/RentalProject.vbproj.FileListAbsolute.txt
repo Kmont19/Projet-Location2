@@ -581,6 +581,7 @@ C:\Users\Olivier\source\repos\Projet-Location2\RentalProject\obj\Debug\RentalPro
 C:\Users\Olivier\source\repos\Projet-Location2\RentalProject\obj\Debug\RentalProject.pdb
 C:\Users\Olivier\source\repos\Projet-Location2\RentalProject\obj\Debug\RentalProject.iCalendar.resources
 >>>>>>> Stashed changes
+<<<<<<< Updated upstream
 C:\Users\Vincent\Desktop\Marc-Antoine\Projet-Location2\RentalProject\bin\Debug\RentalProject.exe.config
 C:\Users\Vincent\Desktop\Marc-Antoine\Projet-Location2\RentalProject\bin\Debug\RentalProject.exe
 C:\Users\Vincent\Desktop\Marc-Antoine\Projet-Location2\RentalProject\bin\Debug\RentalProject.pdb
@@ -637,3 +638,6 @@ C:\Users\Vincent\Desktop\Marc-Antoine\Projet-Location2\RentalProject\obj\Debug\R
 C:\Users\Vincent\Desktop\Marc-Antoine\Projet-Location2\RentalProject\obj\Debug\RentalProject.exe
 C:\Users\Vincent\Desktop\Marc-Antoine\Projet-Location2\RentalProject\obj\Debug\RentalProject.xml
 C:\Users\Vincent\Desktop\Marc-Antoine\Projet-Location2\RentalProject\obj\Debug\RentalProject.pdb
+=======
+C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet-Location2\RentalProject\obj\Debug\RentalProject.iCalendar.resources
+>>>>>>> Stashed changes
