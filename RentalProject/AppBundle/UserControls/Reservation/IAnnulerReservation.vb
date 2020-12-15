@@ -33,7 +33,7 @@ Public Class IAnnulerReservation
             ReservDate.Value = it.Item(6)
         Next
         ReservDate.CustomFormat = "dd-MM-yyyy hh:mm:ss"
-        DGVEquipments.DataSource = EntityEquipment.getInstance.getEquipmentRented(ReservID.Text)
+        DGVEquipments.DataSource = EntityReservations.getInstance.getEquipmentReserver(ReservID.Text)
     End Sub
 
 
@@ -41,10 +41,10 @@ Public Class IAnnulerReservation
         Me.SendToBack()
     End Sub
 
-    Private Sub FullReturnButton_Click(sender As Object, e As EventArgs) Handles FullReturnButton.Click
+    Private Sub FullAnnulerButton_Click(sender As Object, e As EventArgs) Handles FullAnnulerButton.Click
         Dim reception As String = ""
         If MessageBox.Show("Êtes-vous sûr de vouloir effectuer cette annulation?", "Attention", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) = DialogResult.Yes Then
-            If MessageBox.Show("Voulez vous ajouter un commentaire à ce retour?", "Attention", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
+            If MessageBox.Show("Voulez vous ajouter un commentaire à cette annulation?", "Attention", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
                 Dim comment As String = InputBox("Note:", "Commentaires")
                 comment = Regex.Replace(comment, "'", "''")
                 comment = Regex.Replace(comment, "[^A-Za-z0-9' ]", String.Empty)
@@ -73,4 +73,6 @@ Public Class IAnnulerReservation
             DGVEquipments.Select()
         End If
     End Sub
+
+
 End Class
