@@ -180,4 +180,38 @@ Public Class EntityEquipment
             MessageBox.Show("Le chargement des données de la Base de Données a échoué:" + ex.Message)
         End Try
     End Function
+
+
+    Public Function getEquipmentNbrEmprunt(noEquipement As Integer) As DataTable
+        Try
+            Dim command As New MySqlCommand
+            command.Connection = connection
+            command.CommandText = $"Select NbrEmprunt from equipement where noEquipement = {noEquipement}"
+            connection.Open()
+            Dim reader = command.ExecuteReader()
+            Dim equipmentTable As New DataTable("equipement")
+            equipmentTable.Load(reader)
+            connection.Close()
+            Return equipmentTable
+        Catch ex As Exception
+            MessageBox.Show("Le chargement des données de la Base de Données a échoué:" + ex.Message)
+        End Try
+    End Function
+
+
+    Public Function getNbrEquipement() As DataTable
+        Try
+            Dim command As New MySqlCommand
+            command.Connection = connection
+            command.CommandText = $"SELECT COUNT(*) FROM equipement"
+            connection.Open()
+            Dim reader = command.ExecuteReader()
+            Dim equipmentTable As New DataTable("equipement")
+            equipmentTable.Load(reader)
+            connection.Close()
+            Return equipmentTable
+        Catch ex As Exception
+            MessageBox.Show("Le chargement des données de la Base de Données a échoué:" + ex.Message)
+        End Try
+    End Function
 End Class

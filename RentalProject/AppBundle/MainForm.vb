@@ -112,13 +112,13 @@
         Calendar.BringToFront()
     End Sub
 
-    'Private Sub StatsButton_Click(sender As Object, e As EventArgs) Handles StatsButton.Click
-    '    InterfacePanel.Controls.Clear()
-    '    Dim stats As New IStatsMain()
-    '    stats.Dock = DockStyle.Fill
-    '    InterfacePanel.Controls.Add(stats)
-    '    stats.BringToFront()
-    'End Sub
+    Private Sub StatsButton_Click(sender As Object, e As EventArgs) Handles StatsButton.Click
+        InterfacePanel.Controls.Clear()
+        Dim stats As New IStatsMain()
+        stats.Dock = DockStyle.Fill
+        InterfacePanel.Controls.Add(stats)
+        stats.BringToFront()
+    End Sub
 
     Private Sub NotifyButton_Click(sender As Object, e As EventArgs) Handles NotifyButton.Click
         InterfacePanel.Controls.Clear()
@@ -142,5 +142,9 @@
         users.Dock = DockStyle.Fill
         InterfacePanel.Controls.Add(users)
         users.BringToFront()
+    End Sub
+
+    Private Sub InterfacePanel_Paint(sender As Object, e As PaintEventArgs) Handles InterfacePanel.Paint
+
     End Sub
 End Class
