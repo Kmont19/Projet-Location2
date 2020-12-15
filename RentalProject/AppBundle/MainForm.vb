@@ -3,7 +3,7 @@
     Private isMouseDown As Boolean = False
     Private mouseOffset As Point
     'Public connectionString = "Server='localhost';Database='projetsession';Uid='root';Pwd='';Port=3308;"
-    Public connectionString = "Server='projectcegep2020tr.hopto.org';Database='projetsession';Uid='root';Pwd='root';Port=3306;"
+    Public connectionString = "Server='projectcegep2020tr.hopto.org';Database='projetsession';charset=utf8;Uid='root';Pwd='root';Port=3306;"
     Shared instance As MainForm = Nothing
     Public userStatut As String
 

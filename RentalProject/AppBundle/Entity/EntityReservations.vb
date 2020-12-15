@@ -16,7 +16,7 @@ Public Class EntityReservations
     Public Function getReservation() As DataTable
         Dim command As New MySqlCommand
         command.Connection = connection
-        command.CommandText = $"Select distinct E.ID, initcap(concat(P.nom, ', ', P.prenom)) as Réservé_par, initcap(E.autorisation) as autorisation from reservation E inner join personne P on E.noPersonne = P.noPersonne order by E.ID"
+        command.CommandText = $"Select distinct E.ID, initcap(concat(P.nom, ', ', P.prenom)) as Emprunté_par, initcap(E.autorisation) as autorisation, initcap(E.DateEmprunt) as Date_Emprunt, initcap(E.dateRetour) as Date_Retour, initcap(E.commentaires) as Commentaires from reservation E inner join personne P on E.noPersonne = P.noPersonne order by E.ID"
         connection.Open()
         Dim reader = command.ExecuteReader()
         Dim table As New DataTable("Reservation")
@@ -53,17 +53,7 @@ Public Class EntityReservations
         End If
     End Function
 
-    Public Function getReserv() As DataTable
-        Dim command As New MySqlCommand
-        command.Connection = connection
-        command.CommandText = $"Select distinct E.ID, initcap(concat(P.nom, ', ', P.prenom)) as Réservé_par, initcap(E.autorisation) as autorisation from reservation E inner join personne P on E.noPersonne = P.noPersonne order by E.ID"
-        connection.Open()
-        Dim reader = command.ExecuteReader()
-        Dim table As New DataTable("reserv")
-        table.Load(reader)
-        connection.Close()
-        Return table
-    End Function
+
 
 
     Public Function getReservDatesbyID(id As Integer) As DataTable

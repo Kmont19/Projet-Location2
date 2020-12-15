@@ -17,7 +17,7 @@
     End Sub
 
     Private Sub IReservSearch_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        loadData(EntityReservations.getInstance().getReserv(), True)
+        loadData(EntityReservations.getInstance().getReservation(), True)
     End Sub
 
     ''' <summary>
@@ -41,7 +41,7 @@
                 ReservLastName.Text = ""
                 AuthorisationName.Text = ""
                 MessageBox.Show($"Aucune réservations correspondant à vos critères{Environment.NewLine}dans la base de donnée.")
-                loadData(EntityReservations.getInstance().getReserv(), True)
+                loadData(EntityReservations.getInstance().getReservation(), True)
             End If
         Else
             For Each it As DataRow In reservTable.Rows

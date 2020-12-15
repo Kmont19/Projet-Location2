@@ -42,6 +42,9 @@ Partial Class IRentalsSearch
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.SearchButton = New System.Windows.Forms.Button()
         Me.DetailsButton = New System.Windows.Forms.Button()
+        Me.DateEmprunt = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.DateRetour = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.Comments = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.ViewPanel.SuspendLayout()
@@ -189,7 +192,7 @@ Partial Class IRentalsSearch
         '
         'ListView1
         '
-        Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.Id, Me.RentedBy, Me.Authorisation})
+        Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.Id, Me.RentedBy, Me.Authorisation, Me.DateEmprunt, Me.DateRetour, Me.Comments})
         Me.ListView1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ListView1.FullRowSelect = True
         Me.ListView1.HideSelection = False
@@ -263,6 +266,21 @@ Partial Class IRentalsSearch
         Me.DetailsButton.Text = "Afficher les Détails"
         Me.DetailsButton.UseVisualStyleBackColor = False
         '
+        'DateEmprunt
+        '
+        Me.DateEmprunt.Text = "Date d'emprunt"
+        Me.DateEmprunt.Width = 143
+        '
+        'DateRetour
+        '
+        Me.DateRetour.Text = "Date de retour"
+        Me.DateRetour.Width = 125
+        '
+        'Comments
+        '
+        Me.Comments.Text = "Commentaires"
+        Me.Comments.Width = 270
+        '
         'IRentalsSearch
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -306,4 +324,7 @@ Partial Class IRentalsSearch
     Friend WithEvents SearchButton As Button
     Friend WithEvents DetailsButton As Button
     Friend WithEvents Label13 As Label
+    Friend WithEvents DateEmprunt As ColumnHeader
+    Friend WithEvents DateRetour As ColumnHeader
+    Friend WithEvents Comments As ColumnHeader
 End Class

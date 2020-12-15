@@ -61,7 +61,7 @@ Public Class IAnnulerReservation
                 Dim personNumber As DataRow = EntityReservations.getInstance().getReservByID(CInt(ReservID.Text)).Rows(0)
                 ModelReservation.getInstance().deleteReserv(ReservID.Text, it.Cells(0).Value)
             Next
-            reserv.loadData(EntityReservations.getInstance().getReserv())
+            reserv.loadData(EntityReservations.getInstance().getReservation())
             reserv.DetailsButton.Enabled = False
             reserv.ReturnButton.Enabled = False
             mainForm.InterfacePanel.Controls.Clear()

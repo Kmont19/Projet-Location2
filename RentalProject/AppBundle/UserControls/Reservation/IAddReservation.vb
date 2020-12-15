@@ -120,7 +120,7 @@ Public Class IAddReservation
                     reservEntity.addReserv(id, no_personne, no_equipement, autorisation, Date.Now, duree, dateRetour, Trim(Comments.Text))
                     reservEntity.updateEquipmentNonAvailable(no_equipement)
                 Next
-                reservs.loadData(EntityReservations.getInstance().getReserv())
+                reservs.loadData(EntityReservations.getInstance().getReservation())
                 MessageBox.Show("La réservation à été ajouté avec succès.")
                 Me.SendToBack()
                 reservs.DetailsButton.Enabled = False
@@ -156,7 +156,7 @@ Public Class IAddReservation
     Private Sub BackButton_Click(sender As Object, e As EventArgs) Handles BackButton.Click, CancelButton.Click
         If MessageBox.Show($"Voulez-vous vraiment faire cette opération?{Environment.NewLine}Tous vos changement seront perdus.", "Attention", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) = DialogResult.Yes Then
             Me.SendToBack()
-            reservs.loadData(EntityReservations.getInstance().getReserv())
+            reservs.loadData(EntityReservations.getInstance().getReservation())
             reservs.DetailsButton.Enabled = False
             reservs.ReturnButton.Enabled = False
         End If

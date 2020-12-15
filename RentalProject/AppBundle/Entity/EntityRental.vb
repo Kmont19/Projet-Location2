@@ -15,7 +15,7 @@ Public Class EntityRental
     Public Function getRentals() As DataTable
         Dim command As New MySqlCommand
         command.Connection = connection
-        command.CommandText = $"Select distinct E.ID, initcap(concat(P.nom, ', ', P.prenom)) as Emprunté_par, initcap(E.autorisation) as autorisation from emprunt E inner join personne P on E.noPersonne = P.noPersonne order by E.ID"
+        command.CommandText = $"Select distinct E.ID, initcap(concat(P.nom, ', ', P.prenom)) as Emprunté_par, initcap(E.autorisation) as autorisation, initcap(E.DateEmprunt) as Date_Emprunt, initcap(E.dateRetour) as Date_Retour, initcap(E.commentaires) as Commentaires from emprunt E inner join personne P on E.noPersonne = P.noPersonne order by E.ID"
         connection.Open()
         Dim reader = command.ExecuteReader()
         Dim table As New DataTable("emprunt")

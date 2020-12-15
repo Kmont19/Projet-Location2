@@ -56,3 +56,4 @@ C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet-L
 C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet-Location2\RentalProject\obj\Debug\RentalProject.exe
 C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet-Location2\RentalProject\obj\Debug\RentalProject.xml
 C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet-Location2\RentalProject\obj\Debug\RentalProject.pdb
+C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet-Location2\RentalProject\obj\Debug\RentalProject.IStatsMain.resources
