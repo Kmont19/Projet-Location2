@@ -464,6 +464,9 @@
     <EmbeddedResource Include="AppBundle\UserControls\IEquipmentDetails.resx">
       <DependentUpon>IEquipmentDetails.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AppBundle\UserControls\Notification\INotifCenter.resx">
+      <DependentUpon>INotifCenter.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AppBundle\UserControls\Reservation\IAddPersonReserv.resx">
       <DependentUpon>IAddPersonReserv.vb</DependentUpon>
     </EmbeddedResource>

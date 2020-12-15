@@ -56,14 +56,14 @@ Partial Class IAddPersonReserv
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.0!)
         Me.Label5.Location = New System.Drawing.Point(0, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(586, 58)
+        Me.Label5.Size = New System.Drawing.Size(1004, 58)
         Me.Label5.TabIndex = 12
         Me.Label5.Text = "Ajout de Personne"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'TBMatricule
         '
-        Me.TBMatricule.Location = New System.Drawing.Point(387, 97)
+        Me.TBMatricule.Location = New System.Drawing.Point(587, 113)
         Me.TBMatricule.Name = "TBMatricule"
         Me.TBMatricule.Size = New System.Drawing.Size(174, 20)
         Me.TBMatricule.TabIndex = 126
@@ -72,7 +72,7 @@ Partial Class IAddPersonReserv
         '
         Me.LaMatricule.AutoSize = True
         Me.LaMatricule.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LaMatricule.Location = New System.Drawing.Point(314, 100)
+        Me.LaMatricule.Location = New System.Drawing.Point(514, 116)
         Me.LaMatricule.Name = "LaMatricule"
         Me.LaMatricule.Size = New System.Drawing.Size(65, 17)
         Me.LaMatricule.TabIndex = 125
@@ -80,7 +80,7 @@ Partial Class IAddPersonReserv
         '
         'TBBureau
         '
-        Me.TBBureau.Location = New System.Drawing.Point(387, 265)
+        Me.TBBureau.Location = New System.Drawing.Point(587, 281)
         Me.TBBureau.Mask = "LL0000"
         Me.TBBureau.Name = "TBBureau"
         Me.TBBureau.Size = New System.Drawing.Size(72, 20)
@@ -88,7 +88,7 @@ Partial Class IAddPersonReserv
         '
         'TBPoste
         '
-        Me.TBPoste.Location = New System.Drawing.Point(387, 323)
+        Me.TBPoste.Location = New System.Drawing.Point(587, 339)
         Me.TBPoste.Margin = New System.Windows.Forms.Padding(2)
         Me.TBPoste.Mask = "999999"
         Me.TBPoste.Name = "TBPoste"
@@ -99,7 +99,7 @@ Partial Class IAddPersonReserv
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(53, 268)
+        Me.Label2.Location = New System.Drawing.Point(253, 284)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(42, 17)
         Me.Label2.TabIndex = 122
@@ -107,14 +107,14 @@ Partial Class IAddPersonReserv
         '
         'Email
         '
-        Me.Email.Location = New System.Drawing.Point(105, 265)
+        Me.Email.Location = New System.Drawing.Point(305, 281)
         Me.Email.Name = "Email"
         Me.Email.Size = New System.Drawing.Size(174, 20)
         Me.Email.TabIndex = 121
         '
         'TBTelephone
         '
-        Me.TBTelephone.Location = New System.Drawing.Point(104, 210)
+        Me.TBTelephone.Location = New System.Drawing.Point(304, 226)
         Me.TBTelephone.Margin = New System.Windows.Forms.Padding(2)
         Me.TBTelephone.Mask = "(000) 000-0000"
         Me.TBTelephone.Name = "TBTelephone"
@@ -125,7 +125,7 @@ Partial Class IAddPersonReserv
         '
         Me.LAPoste.AutoSize = True
         Me.LAPoste.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LAPoste.Location = New System.Drawing.Point(335, 321)
+        Me.LAPoste.Location = New System.Drawing.Point(535, 337)
         Me.LAPoste.Name = "LAPoste"
         Me.LAPoste.Size = New System.Drawing.Size(44, 17)
         Me.LAPoste.TabIndex = 119
@@ -135,7 +135,7 @@ Partial Class IAddPersonReserv
         '
         Me.LABureau.AutoSize = True
         Me.LABureau.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LABureau.Location = New System.Drawing.Point(299, 266)
+        Me.LABureau.Location = New System.Drawing.Point(499, 282)
         Me.LABureau.Name = "LABureau"
         Me.LABureau.Size = New System.Drawing.Size(80, 17)
         Me.LABureau.TabIndex = 118
@@ -143,7 +143,7 @@ Partial Class IAddPersonReserv
         '
         'TBService
         '
-        Me.TBService.Location = New System.Drawing.Point(387, 211)
+        Me.TBService.Location = New System.Drawing.Point(587, 227)
         Me.TBService.Name = "TBService"
         Me.TBService.Size = New System.Drawing.Size(174, 20)
         Me.TBService.TabIndex = 117
@@ -152,7 +152,7 @@ Partial Class IAddPersonReserv
         '
         Me.LAService.AutoSize = True
         Me.LAService.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LAService.Location = New System.Drawing.Point(324, 211)
+        Me.LAService.Location = New System.Drawing.Point(524, 227)
         Me.LAService.Name = "LAService"
         Me.LAService.Size = New System.Drawing.Size(55, 17)
         Me.LAService.TabIndex = 116
@@ -160,7 +160,7 @@ Partial Class IAddPersonReserv
         '
         'TBDepartement
         '
-        Me.TBDepartement.Location = New System.Drawing.Point(387, 154)
+        Me.TBDepartement.Location = New System.Drawing.Point(587, 170)
         Me.TBDepartement.Name = "TBDepartement"
         Me.TBDepartement.Size = New System.Drawing.Size(174, 20)
         Me.TBDepartement.TabIndex = 115
@@ -169,7 +169,7 @@ Partial Class IAddPersonReserv
         '
         Me.LADepartement.AutoSize = True
         Me.LADepartement.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LADepartement.Location = New System.Drawing.Point(294, 157)
+        Me.LADepartement.Location = New System.Drawing.Point(494, 173)
         Me.LADepartement.Name = "LADepartement"
         Me.LADepartement.Size = New System.Drawing.Size(90, 17)
         Me.LADepartement.TabIndex = 114
@@ -179,7 +179,7 @@ Partial Class IAddPersonReserv
         '
         Me.LATelephone.AutoSize = True
         Me.LATelephone.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LATelephone.Location = New System.Drawing.Point(26, 216)
+        Me.LATelephone.Location = New System.Drawing.Point(226, 232)
         Me.LATelephone.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LATelephone.Name = "LATelephone"
         Me.LATelephone.Size = New System.Drawing.Size(74, 16)
@@ -188,7 +188,7 @@ Partial Class IAddPersonReserv
         '
         'TBPrenom
         '
-        Me.TBPrenom.Location = New System.Drawing.Point(105, 154)
+        Me.TBPrenom.Location = New System.Drawing.Point(305, 170)
         Me.TBPrenom.Name = "TBPrenom"
         Me.TBPrenom.Size = New System.Drawing.Size(174, 20)
         Me.TBPrenom.TabIndex = 112
@@ -197,7 +197,7 @@ Partial Class IAddPersonReserv
         '
         Me.LAPrenom.AutoSize = True
         Me.LAPrenom.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LAPrenom.Location = New System.Drawing.Point(41, 157)
+        Me.LAPrenom.Location = New System.Drawing.Point(241, 173)
         Me.LAPrenom.Name = "LAPrenom"
         Me.LAPrenom.Size = New System.Drawing.Size(57, 17)
         Me.LAPrenom.TabIndex = 111
@@ -209,14 +209,14 @@ Partial Class IAddPersonReserv
         Me.CBStatut.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CBStatut.FormattingEnabled = True
         Me.CBStatut.Items.AddRange(New Object() {"Étudiant", "Professeur", "Technicien", "Administration"})
-        Me.CBStatut.Location = New System.Drawing.Point(104, 317)
+        Me.CBStatut.Location = New System.Drawing.Point(304, 333)
         Me.CBStatut.Name = "CBStatut"
         Me.CBStatut.Size = New System.Drawing.Size(174, 21)
         Me.CBStatut.TabIndex = 110
         '
         'TBNom
         '
-        Me.TBNom.Location = New System.Drawing.Point(105, 97)
+        Me.TBNom.Location = New System.Drawing.Point(305, 113)
         Me.TBNom.Name = "TBNom"
         Me.TBNom.Size = New System.Drawing.Size(174, 20)
         Me.TBNom.TabIndex = 109
@@ -225,7 +225,7 @@ Partial Class IAddPersonReserv
         '
         Me.LAStatut.AutoSize = True
         Me.LAStatut.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LAStatut.Location = New System.Drawing.Point(50, 321)
+        Me.LAStatut.Location = New System.Drawing.Point(250, 337)
         Me.LAStatut.Name = "LAStatut"
         Me.LAStatut.Size = New System.Drawing.Size(45, 17)
         Me.LAStatut.TabIndex = 108
@@ -235,7 +235,7 @@ Partial Class IAddPersonReserv
         '
         Me.LANom.AutoSize = True
         Me.LANom.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LANom.Location = New System.Drawing.Point(58, 100)
+        Me.LANom.Location = New System.Drawing.Point(258, 116)
         Me.LANom.Name = "LANom"
         Me.LANom.Size = New System.Drawing.Size(37, 17)
         Me.LANom.TabIndex = 107
@@ -246,10 +246,10 @@ Partial Class IAddPersonReserv
         Me.Panel2.Controls.Add(Me.AddButton)
         Me.Panel2.Controls.Add(Me.CancelButton)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel2.Location = New System.Drawing.Point(0, 380)
+        Me.Panel2.Location = New System.Drawing.Point(0, 482)
         Me.Panel2.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(586, 60)
+        Me.Panel2.Size = New System.Drawing.Size(1004, 60)
         Me.Panel2.TabIndex = 127
         '
         'AddButton
@@ -262,7 +262,7 @@ Partial Class IAddPersonReserv
         Me.AddButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.AddButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AddButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(58, Byte), Integer), CType(CType(212, Byte), Integer), CType(CType(58, Byte), Integer))
-        Me.AddButton.Location = New System.Drawing.Point(326, 0)
+        Me.AddButton.Location = New System.Drawing.Point(744, 0)
         Me.AddButton.Margin = New System.Windows.Forms.Padding(2)
         Me.AddButton.Name = "AddButton"
         Me.AddButton.Size = New System.Drawing.Size(130, 60)
@@ -280,7 +280,7 @@ Partial Class IAddPersonReserv
         Me.CancelButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CancelButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CancelButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(212, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(58, Byte), Integer))
-        Me.CancelButton.Location = New System.Drawing.Point(456, 0)
+        Me.CancelButton.Location = New System.Drawing.Point(874, 0)
         Me.CancelButton.Margin = New System.Windows.Forms.Padding(2)
         Me.CancelButton.Name = "CancelButton"
         Me.CancelButton.Size = New System.Drawing.Size(130, 60)
@@ -330,7 +330,7 @@ Partial Class IAddPersonReserv
         Me.Controls.Add(Me.LANom)
         Me.Controls.Add(Me.Label5)
         Me.Name = "IAddPersonReserv"
-        Me.Size = New System.Drawing.Size(586, 440)
+        Me.Size = New System.Drawing.Size(1004, 542)
         Me.Panel2.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()

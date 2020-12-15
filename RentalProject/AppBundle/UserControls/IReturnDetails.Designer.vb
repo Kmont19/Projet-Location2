@@ -57,9 +57,9 @@ Partial Class IReturnDetails
         Me.Panel1.Controls.Add(Me.Label13)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(586, 58)
+        Me.Panel1.Size = New System.Drawing.Size(1004, 58)
         Me.Panel1.TabIndex = 5
         '
         'BackButton
@@ -71,7 +71,7 @@ Partial Class IReturnDetails
         Me.BackButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BackButton.Image = Global.RentalProject.My.Resources.Resources.baseline_backward_black_18dp_4x
         Me.BackButton.Location = New System.Drawing.Point(0, 0)
-        Me.BackButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.BackButton.Margin = New System.Windows.Forms.Padding(2)
         Me.BackButton.Name = "BackButton"
         Me.BackButton.Size = New System.Drawing.Size(52, 58)
         Me.BackButton.TabIndex = 110
@@ -83,7 +83,7 @@ Partial Class IReturnDetails
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.0!)
         Me.Label13.Location = New System.Drawing.Point(0, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(586, 58)
+        Me.Label13.Size = New System.Drawing.Size(1004, 58)
         Me.Label13.TabIndex = 111
         Me.Label13.Text = "Retour"
         Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -94,9 +94,9 @@ Partial Class IReturnDetails
         Me.Panel3.Controls.Add(Me.FullReturnButton)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel3.Location = New System.Drawing.Point(0, 58)
-        Me.Panel3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(166, 382)
+        Me.Panel3.Size = New System.Drawing.Size(166, 484)
         Me.Panel3.TabIndex = 7
         '
         'EquipReturnButton
@@ -110,7 +110,7 @@ Partial Class IReturnDetails
         Me.EquipReturnButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.EquipReturnButton.ForeColor = System.Drawing.Color.White
         Me.EquipReturnButton.Location = New System.Drawing.Point(0, 58)
-        Me.EquipReturnButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.EquipReturnButton.Margin = New System.Windows.Forms.Padding(2)
         Me.EquipReturnButton.Name = "EquipReturnButton"
         Me.EquipReturnButton.Size = New System.Drawing.Size(166, 58)
         Me.EquipReturnButton.TabIndex = 114
@@ -128,7 +128,7 @@ Partial Class IReturnDetails
         Me.FullReturnButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FullReturnButton.ForeColor = System.Drawing.Color.White
         Me.FullReturnButton.Location = New System.Drawing.Point(0, 0)
-        Me.FullReturnButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.FullReturnButton.Margin = New System.Windows.Forms.Padding(2)
         Me.FullReturnButton.Name = "FullReturnButton"
         Me.FullReturnButton.Size = New System.Drawing.Size(166, 58)
         Me.FullReturnButton.TabIndex = 115
@@ -155,9 +155,9 @@ Partial Class IReturnDetails
         Me.Panel2.Controls.Add(Me.Label1)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel2.Location = New System.Drawing.Point(166, 58)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(420, 382)
+        Me.Panel2.Size = New System.Drawing.Size(838, 484)
         Me.Panel2.TabIndex = 8
         '
         'DGVEquipments
@@ -167,18 +167,18 @@ Partial Class IReturnDetails
         Me.DGVEquipments.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.DGVEquipments.BackgroundColor = System.Drawing.Color.White
         Me.DGVEquipments.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DGVEquipments.Location = New System.Drawing.Point(27, 237)
+        Me.DGVEquipments.Location = New System.Drawing.Point(38, 242)
         Me.DGVEquipments.Name = "DGVEquipments"
         Me.DGVEquipments.RowHeadersWidth = 51
         Me.DGVEquipments.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DGVEquipments.Size = New System.Drawing.Size(367, 128)
+        Me.DGVEquipments.Size = New System.Drawing.Size(746, 209)
         Me.DGVEquipments.TabIndex = 108
         '
         'Label14
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(127, 205)
+        Me.Label14.Location = New System.Drawing.Point(303, 210)
         Me.Label14.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label14.Name = "Label14"
         Me.Label14.Padding = New System.Windows.Forms.Padding(8, 4, 0, 0)
@@ -190,7 +190,7 @@ Partial Class IReturnDetails
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(79, 132)
+        Me.Label6.Location = New System.Drawing.Point(255, 137)
         Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(42, 17)
@@ -201,8 +201,8 @@ Partial Class IReturnDetails
         '
         Me.Email.Enabled = False
         Me.Email.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Email.Location = New System.Drawing.Point(130, 131)
-        Me.Email.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Email.Location = New System.Drawing.Point(306, 136)
+        Me.Email.Margin = New System.Windows.Forms.Padding(2)
         Me.Email.Name = "Email"
         Me.Email.ReadOnly = True
         Me.Email.Size = New System.Drawing.Size(200, 21)
@@ -212,8 +212,8 @@ Partial Class IReturnDetails
         '
         Me.RentalID.Enabled = False
         Me.RentalID.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RentalID.Location = New System.Drawing.Point(66, 13)
-        Me.RentalID.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RentalID.Location = New System.Drawing.Point(242, 18)
+        Me.RentalID.Margin = New System.Windows.Forms.Padding(2)
         Me.RentalID.Multiline = True
         Me.RentalID.Name = "RentalID"
         Me.RentalID.ReadOnly = True
@@ -223,8 +223,8 @@ Partial Class IReturnDetails
         'RentalDate
         '
         Me.RentalDate.Enabled = False
-        Me.RentalDate.Location = New System.Drawing.Point(129, 170)
-        Me.RentalDate.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RentalDate.Location = New System.Drawing.Point(305, 175)
+        Me.RentalDate.Margin = New System.Windows.Forms.Padding(2)
         Me.RentalDate.Name = "RentalDate"
         Me.RentalDate.Size = New System.Drawing.Size(201, 20)
         Me.RentalDate.TabIndex = 55
@@ -233,8 +233,8 @@ Partial Class IReturnDetails
         '
         Me.Authorisation.Enabled = False
         Me.Authorisation.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Authorisation.Location = New System.Drawing.Point(290, 13)
-        Me.Authorisation.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Authorisation.Location = New System.Drawing.Point(466, 18)
+        Me.Authorisation.Margin = New System.Windows.Forms.Padding(2)
         Me.Authorisation.Multiline = True
         Me.Authorisation.Name = "Authorisation"
         Me.Authorisation.ReadOnly = True
@@ -245,8 +245,8 @@ Partial Class IReturnDetails
         '
         Me.RenterFirstName.Enabled = False
         Me.RenterFirstName.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RenterFirstName.Location = New System.Drawing.Point(66, 51)
-        Me.RenterFirstName.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RenterFirstName.Location = New System.Drawing.Point(242, 56)
+        Me.RenterFirstName.Margin = New System.Windows.Forms.Padding(2)
         Me.RenterFirstName.Multiline = True
         Me.RenterFirstName.Name = "RenterFirstName"
         Me.RenterFirstName.ReadOnly = True
@@ -257,8 +257,8 @@ Partial Class IReturnDetails
         '
         Me.RenterLastName.Enabled = False
         Me.RenterLastName.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RenterLastName.Location = New System.Drawing.Point(290, 53)
-        Me.RenterLastName.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RenterLastName.Location = New System.Drawing.Point(466, 58)
+        Me.RenterLastName.Margin = New System.Windows.Forms.Padding(2)
         Me.RenterLastName.Multiline = True
         Me.RenterLastName.Name = "RenterLastName"
         Me.RenterLastName.ReadOnly = True
@@ -269,8 +269,8 @@ Partial Class IReturnDetails
         '
         Me.RenterStatus.Enabled = False
         Me.RenterStatus.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RenterStatus.Location = New System.Drawing.Point(66, 90)
-        Me.RenterStatus.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RenterStatus.Location = New System.Drawing.Point(242, 95)
+        Me.RenterStatus.Margin = New System.Windows.Forms.Padding(2)
         Me.RenterStatus.Multiline = True
         Me.RenterStatus.Name = "RenterStatus"
         Me.RenterStatus.ReadOnly = True
@@ -281,7 +281,7 @@ Partial Class IReturnDetails
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(24, 170)
+        Me.Label11.Location = New System.Drawing.Point(200, 175)
         Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(105, 17)
@@ -292,7 +292,7 @@ Partial Class IReturnDetails
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(207, 13)
+        Me.Label10.Location = New System.Drawing.Point(383, 18)
         Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(85, 17)
@@ -303,7 +303,7 @@ Partial Class IReturnDetails
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(20, 92)
+        Me.Label5.Location = New System.Drawing.Point(196, 97)
         Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(45, 17)
@@ -314,7 +314,7 @@ Partial Class IReturnDetails
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(249, 53)
+        Me.Label3.Location = New System.Drawing.Point(425, 58)
         Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(37, 17)
@@ -325,7 +325,7 @@ Partial Class IReturnDetails
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(10, 51)
+        Me.Label2.Location = New System.Drawing.Point(186, 56)
         Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(57, 17)
@@ -336,7 +336,7 @@ Partial Class IReturnDetails
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(42, 15)
+        Me.Label1.Location = New System.Drawing.Point(218, 20)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(21, 17)
@@ -353,10 +353,10 @@ Partial Class IReturnDetails
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.MinimumSize = New System.Drawing.Size(586, 440)
+        Me.Margin = New System.Windows.Forms.Padding(2)
+        Me.MinimumSize = New System.Drawing.Size(1004, 542)
         Me.Name = "IReturnDetails"
-        Me.Size = New System.Drawing.Size(586, 440)
+        Me.Size = New System.Drawing.Size(1004, 542)
         Me.Panel1.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)

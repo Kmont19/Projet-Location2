@@ -54,7 +54,7 @@ Partial Class IAnnulerReservation
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.0!)
         Me.Label13.Location = New System.Drawing.Point(0, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(586, 58)
+        Me.Label13.Size = New System.Drawing.Size(1004, 58)
         Me.Label13.TabIndex = 112
         Me.Label13.Text = "Annuler une réservation"
         Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -80,7 +80,7 @@ Partial Class IAnnulerReservation
         Me.Panel3.Location = New System.Drawing.Point(0, 58)
         Me.Panel3.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(166, 382)
+        Me.Panel3.Size = New System.Drawing.Size(166, 484)
         Me.Panel3.TabIndex = 114
         '
         'FullReturnButton
@@ -123,7 +123,7 @@ Partial Class IAnnulerReservation
         Me.Panel2.Location = New System.Drawing.Point(166, 58)
         Me.Panel2.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(420, 382)
+        Me.Panel2.Size = New System.Drawing.Size(838, 484)
         Me.Panel2.TabIndex = 115
         '
         'DGVEquipments
@@ -133,18 +133,18 @@ Partial Class IAnnulerReservation
         Me.DGVEquipments.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells
         Me.DGVEquipments.BackgroundColor = System.Drawing.Color.White
         Me.DGVEquipments.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DGVEquipments.Location = New System.Drawing.Point(27, 237)
+        Me.DGVEquipments.Location = New System.Drawing.Point(5, 263)
         Me.DGVEquipments.Name = "DGVEquipments"
         Me.DGVEquipments.RowHeadersWidth = 51
         Me.DGVEquipments.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DGVEquipments.Size = New System.Drawing.Size(367, 128)
+        Me.DGVEquipments.Size = New System.Drawing.Size(816, 206)
         Me.DGVEquipments.TabIndex = 108
         '
         'Label14
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(127, 205)
+        Me.Label14.Location = New System.Drawing.Point(321, 227)
         Me.Label14.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label14.Name = "Label14"
         Me.Label14.Padding = New System.Windows.Forms.Padding(8, 4, 0, 0)
@@ -156,7 +156,7 @@ Partial Class IAnnulerReservation
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(79, 132)
+        Me.Label6.Location = New System.Drawing.Point(273, 139)
         Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(42, 17)
@@ -167,7 +167,7 @@ Partial Class IAnnulerReservation
         '
         Me.Email.Enabled = False
         Me.Email.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Email.Location = New System.Drawing.Point(130, 131)
+        Me.Email.Location = New System.Drawing.Point(324, 138)
         Me.Email.Margin = New System.Windows.Forms.Padding(2)
         Me.Email.Name = "Email"
         Me.Email.ReadOnly = True
@@ -178,7 +178,7 @@ Partial Class IAnnulerReservation
         '
         Me.ReservID.Enabled = False
         Me.ReservID.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ReservID.Location = New System.Drawing.Point(66, 13)
+        Me.ReservID.Location = New System.Drawing.Point(260, 20)
         Me.ReservID.Margin = New System.Windows.Forms.Padding(2)
         Me.ReservID.Multiline = True
         Me.ReservID.Name = "ReservID"
@@ -189,7 +189,7 @@ Partial Class IAnnulerReservation
         'ReservDate
         '
         Me.ReservDate.Enabled = False
-        Me.ReservDate.Location = New System.Drawing.Point(129, 170)
+        Me.ReservDate.Location = New System.Drawing.Point(323, 177)
         Me.ReservDate.Margin = New System.Windows.Forms.Padding(2)
         Me.ReservDate.Name = "ReservDate"
         Me.ReservDate.Size = New System.Drawing.Size(201, 20)
@@ -199,7 +199,7 @@ Partial Class IAnnulerReservation
         '
         Me.Authorisation.Enabled = False
         Me.Authorisation.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Authorisation.Location = New System.Drawing.Point(290, 13)
+        Me.Authorisation.Location = New System.Drawing.Point(484, 20)
         Me.Authorisation.Margin = New System.Windows.Forms.Padding(2)
         Me.Authorisation.Multiline = True
         Me.Authorisation.Name = "Authorisation"
@@ -211,7 +211,7 @@ Partial Class IAnnulerReservation
         '
         Me.RenterFirstName.Enabled = False
         Me.RenterFirstName.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RenterFirstName.Location = New System.Drawing.Point(66, 51)
+        Me.RenterFirstName.Location = New System.Drawing.Point(260, 58)
         Me.RenterFirstName.Margin = New System.Windows.Forms.Padding(2)
         Me.RenterFirstName.Multiline = True
         Me.RenterFirstName.Name = "RenterFirstName"
@@ -223,7 +223,7 @@ Partial Class IAnnulerReservation
         '
         Me.RenterLastName.Enabled = False
         Me.RenterLastName.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RenterLastName.Location = New System.Drawing.Point(290, 53)
+        Me.RenterLastName.Location = New System.Drawing.Point(484, 60)
         Me.RenterLastName.Margin = New System.Windows.Forms.Padding(2)
         Me.RenterLastName.Multiline = True
         Me.RenterLastName.Name = "RenterLastName"
@@ -235,7 +235,7 @@ Partial Class IAnnulerReservation
         '
         Me.RenterStatus.Enabled = False
         Me.RenterStatus.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RenterStatus.Location = New System.Drawing.Point(66, 90)
+        Me.RenterStatus.Location = New System.Drawing.Point(260, 97)
         Me.RenterStatus.Margin = New System.Windows.Forms.Padding(2)
         Me.RenterStatus.Multiline = True
         Me.RenterStatus.Name = "RenterStatus"
@@ -247,7 +247,7 @@ Partial Class IAnnulerReservation
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(24, 170)
+        Me.Label11.Location = New System.Drawing.Point(218, 177)
         Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(133, 17)
@@ -258,7 +258,7 @@ Partial Class IAnnulerReservation
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(207, 13)
+        Me.Label10.Location = New System.Drawing.Point(401, 20)
         Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(85, 17)
@@ -269,7 +269,7 @@ Partial Class IAnnulerReservation
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(20, 92)
+        Me.Label5.Location = New System.Drawing.Point(214, 99)
         Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(45, 17)
@@ -280,7 +280,7 @@ Partial Class IAnnulerReservation
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(249, 53)
+        Me.Label3.Location = New System.Drawing.Point(443, 60)
         Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(37, 17)
@@ -291,7 +291,7 @@ Partial Class IAnnulerReservation
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(10, 51)
+        Me.Label2.Location = New System.Drawing.Point(204, 58)
         Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(57, 17)
@@ -302,7 +302,7 @@ Partial Class IAnnulerReservation
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(42, 15)
+        Me.Label1.Location = New System.Drawing.Point(236, 22)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(21, 17)
@@ -318,8 +318,9 @@ Partial Class IAnnulerReservation
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.BackButton)
         Me.Controls.Add(Me.Label13)
+        Me.MinimumSize = New System.Drawing.Size(1004, 542)
         Me.Name = "IAnnulerReservation"
-        Me.Size = New System.Drawing.Size(586, 440)
+        Me.Size = New System.Drawing.Size(1004, 542)
         Me.Panel3.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()

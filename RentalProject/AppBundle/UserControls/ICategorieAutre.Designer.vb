@@ -64,9 +64,9 @@ Partial Class ICategorieAutre
         Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(586, 58)
+        Me.Panel1.Size = New System.Drawing.Size(1004, 58)
         Me.Panel1.TabIndex = 5
         '
         'BackButton
@@ -77,7 +77,7 @@ Partial Class ICategorieAutre
         Me.BackButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BackButton.Image = Global.RentalProject.My.Resources.Resources.baseline_backward_black_18dp_4x
         Me.BackButton.Location = New System.Drawing.Point(0, 0)
-        Me.BackButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.BackButton.Margin = New System.Windows.Forms.Padding(2)
         Me.BackButton.Name = "BackButton"
         Me.BackButton.Size = New System.Drawing.Size(70, 58)
         Me.BackButton.TabIndex = 12
@@ -89,7 +89,7 @@ Partial Class ICategorieAutre
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.0!)
         Me.Label5.Location = New System.Drawing.Point(0, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(586, 58)
+        Me.Label5.Size = New System.Drawing.Size(1004, 58)
         Me.Label5.TabIndex = 13
         Me.Label5.Text = "Équipements sans Catégorie"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -103,9 +103,9 @@ Partial Class ICategorieAutre
         Me.Panel2.Controls.Add(Me.Label1)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel2.Location = New System.Drawing.Point(0, 58)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(206, 382)
+        Me.Panel2.Size = New System.Drawing.Size(206, 484)
         Me.Panel2.TabIndex = 6
         '
         'ApplyButton
@@ -162,9 +162,9 @@ Partial Class ICategorieAutre
         Me.Panel3.Controls.Add(Me.Label2)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel3.Location = New System.Drawing.Point(206, 58)
-        Me.Panel3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(380, 382)
+        Me.Panel3.Size = New System.Drawing.Size(798, 484)
         Me.Panel3.TabIndex = 7
         '
         'ListView1
@@ -175,7 +175,7 @@ Partial Class ICategorieAutre
         Me.ListView1.HideSelection = False
         Me.ListView1.Location = New System.Drawing.Point(0, 30)
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(380, 352)
+        Me.ListView1.Size = New System.Drawing.Size(798, 454)
         Me.ListView1.TabIndex = 12
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
@@ -235,9 +235,9 @@ Partial Class ICategorieAutre
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
-        Me.MinimumSize = New System.Drawing.Size(586, 440)
+        Me.MinimumSize = New System.Drawing.Size(1004, 542)
         Me.Name = "ICategorieAutre"
-        Me.Size = New System.Drawing.Size(586, 440)
+        Me.Size = New System.Drawing.Size(1004, 542)
         Me.Panel1.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()

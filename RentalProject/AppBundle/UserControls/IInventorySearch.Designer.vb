@@ -59,9 +59,9 @@ Partial Class IInventorySearch
         Me.Panel1.Controls.Add(Me.Label13)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(586, 50)
+        Me.Panel1.Size = New System.Drawing.Size(1004, 50)
         Me.Panel1.TabIndex = 2
         '
         'BackButton
@@ -72,7 +72,7 @@ Partial Class IInventorySearch
         Me.BackButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BackButton.Image = Global.RentalProject.My.Resources.Resources.baseline_backward_black_18dp_4x
         Me.BackButton.Location = New System.Drawing.Point(0, 0)
-        Me.BackButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.BackButton.Margin = New System.Windows.Forms.Padding(2)
         Me.BackButton.Name = "BackButton"
         Me.BackButton.Size = New System.Drawing.Size(52, 50)
         Me.BackButton.TabIndex = 0
@@ -84,7 +84,7 @@ Partial Class IInventorySearch
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.0!)
         Me.Label13.Location = New System.Drawing.Point(0, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(586, 50)
+        Me.Label13.Size = New System.Drawing.Size(1004, 50)
         Me.Label13.TabIndex = 18
         Me.Label13.Text = "Recherche - Équipements"
         Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -96,9 +96,9 @@ Partial Class IInventorySearch
         Me.Panel2.Controls.Add(Me.Panel3)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel2.Location = New System.Drawing.Point(0, 50)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(194, 390)
+        Me.Panel2.Size = New System.Drawing.Size(194, 492)
         Me.Panel2.TabIndex = 11
         '
         'Panel8
@@ -110,9 +110,9 @@ Partial Class IInventorySearch
         Me.Panel8.Controls.Add(Me.ByEquipmentID)
         Me.Panel8.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel8.Location = New System.Drawing.Point(0, 51)
-        Me.Panel8.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel8.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(194, 288)
+        Me.Panel8.Size = New System.Drawing.Size(194, 390)
         Me.Panel8.TabIndex = 24
         '
         'Label1
@@ -178,8 +178,8 @@ Partial Class IInventorySearch
         '
         Me.Panel7.Controls.Add(Me.DetailsButton)
         Me.Panel7.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel7.Location = New System.Drawing.Point(0, 339)
-        Me.Panel7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel7.Location = New System.Drawing.Point(0, 441)
+        Me.Panel7.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel7.Name = "Panel7"
         Me.Panel7.Size = New System.Drawing.Size(194, 51)
         Me.Panel7.TabIndex = 23
@@ -208,7 +208,7 @@ Partial Class IInventorySearch
         Me.Panel3.Controls.Add(Me.SearchButton)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel3.Location = New System.Drawing.Point(0, 0)
-        Me.Panel3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(194, 51)
         Me.Panel3.TabIndex = 22
@@ -218,7 +218,7 @@ Partial Class IInventorySearch
         Me.Panel6.Controls.Add(Me.TextBox1)
         Me.Panel6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel6.Location = New System.Drawing.Point(0, 17)
-        Me.Panel6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel6.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(147, 19)
         Me.Panel6.TabIndex = 23
@@ -235,7 +235,7 @@ Partial Class IInventorySearch
         '
         Me.Panel5.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.Panel5.Location = New System.Drawing.Point(0, 36)
-        Me.Panel5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel5.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(147, 15)
         Me.Panel5.TabIndex = 22
@@ -244,7 +244,7 @@ Partial Class IInventorySearch
         '
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel4.Location = New System.Drawing.Point(0, 0)
-        Me.Panel4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel4.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(147, 17)
         Me.Panel4.TabIndex = 21
@@ -300,14 +300,14 @@ Partial Class IInventorySearch
         Me.DataGridView1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DataGridView1.GridColor = System.Drawing.SystemColors.ButtonHighlight
         Me.DataGridView1.Location = New System.Drawing.Point(194, 50)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2)
         Me.DataGridView1.MultiSelect = False
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
         Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DataGridView1.Size = New System.Drawing.Size(392, 390)
+        Me.DataGridView1.Size = New System.Drawing.Size(810, 492)
         Me.DataGridView1.TabIndex = 0
         '
         'IInventorySearch
@@ -320,9 +320,9 @@ Partial Class IInventorySearch
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
-        Me.MinimumSize = New System.Drawing.Size(586, 440)
+        Me.MinimumSize = New System.Drawing.Size(1004, 542)
         Me.Name = "IInventorySearch"
-        Me.Size = New System.Drawing.Size(586, 440)
+        Me.Size = New System.Drawing.Size(1004, 542)
         Me.Panel1.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         Me.Panel8.ResumeLayout(False)

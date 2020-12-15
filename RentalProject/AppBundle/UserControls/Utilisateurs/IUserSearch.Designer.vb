@@ -31,8 +31,8 @@ Partial Class IUserSearch
         Me.ByMatricule = New System.Windows.Forms.RadioButton()
         Me.DGVUsers = New System.Windows.Forms.DataGridView()
         Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.BackButton = New System.Windows.Forms.Button()
         Me.SearchButton = New System.Windows.Forms.Button()
+        Me.BackButton = New System.Windows.Forms.Button()
         Me.Panel2.SuspendLayout()
         CType(Me.DGVUsers, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel4.SuspendLayout()
@@ -44,7 +44,7 @@ Partial Class IUserSearch
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.0!)
         Me.Label13.Location = New System.Drawing.Point(0, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(586, 50)
+        Me.Label13.Size = New System.Drawing.Size(1004, 50)
         Me.Label13.TabIndex = 24
         Me.Label13.Text = "Recherche - Utilisateurs"
         Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -60,7 +60,7 @@ Partial Class IUserSearch
         Me.Panel2.Location = New System.Drawing.Point(0, 50)
         Me.Panel2.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(205, 390)
+        Me.Panel2.Size = New System.Drawing.Size(205, 492)
         Me.Panel2.TabIndex = 26
         '
         'CBStatut
@@ -129,22 +129,40 @@ Partial Class IUserSearch
         Me.DGVUsers.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.DGVUsers.BackgroundColor = System.Drawing.Color.White
         Me.DGVUsers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DGVUsers.Location = New System.Drawing.Point(205, 50)
+        Me.DGVUsers.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.DGVUsers.Location = New System.Drawing.Point(0, 50)
         Me.DGVUsers.Name = "DGVUsers"
         Me.DGVUsers.ReadOnly = True
         Me.DGVUsers.RowHeadersWidth = 51
-        Me.DGVUsers.Size = New System.Drawing.Size(381, 341)
+        Me.DGVUsers.Size = New System.Drawing.Size(1004, 492)
         Me.DGVUsers.TabIndex = 25
         '
         'Panel4
         '
         Me.Panel4.Controls.Add(Me.SearchButton)
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel4.Location = New System.Drawing.Point(205, 389)
+        Me.Panel4.Location = New System.Drawing.Point(205, 491)
         Me.Panel4.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(381, 51)
+        Me.Panel4.Size = New System.Drawing.Size(799, 51)
         Me.Panel4.TabIndex = 27
+        '
+        'SearchButton
+        '
+        Me.SearchButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
+        Me.SearchButton.Dock = System.Windows.Forms.DockStyle.Right
+        Me.SearchButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(187, Byte), Integer), CType(CType(222, Byte), Integer), CType(CType(251, Byte), Integer))
+        Me.SearchButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(67, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(96, Byte), Integer))
+        Me.SearchButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.SearchButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SearchButton.ForeColor = System.Drawing.Color.White
+        Me.SearchButton.Image = Global.RentalProject.My.Resources.Resources.baseline_search_white_18dp
+        Me.SearchButton.Location = New System.Drawing.Point(705, 0)
+        Me.SearchButton.Margin = New System.Windows.Forms.Padding(2)
+        Me.SearchButton.Name = "SearchButton"
+        Me.SearchButton.Size = New System.Drawing.Size(94, 51)
+        Me.SearchButton.TabIndex = 9
+        Me.SearchButton.UseVisualStyleBackColor = False
         '
         'BackButton
         '
@@ -159,23 +177,6 @@ Partial Class IUserSearch
         Me.BackButton.TabIndex = 28
         Me.BackButton.UseVisualStyleBackColor = True
         '
-        'SearchButton
-        '
-        Me.SearchButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
-        Me.SearchButton.Dock = System.Windows.Forms.DockStyle.Right
-        Me.SearchButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(187, Byte), Integer), CType(CType(222, Byte), Integer), CType(CType(251, Byte), Integer))
-        Me.SearchButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(67, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(96, Byte), Integer))
-        Me.SearchButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.SearchButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SearchButton.ForeColor = System.Drawing.Color.White
-        Me.SearchButton.Image = Global.RentalProject.My.Resources.Resources.baseline_search_white_18dp
-        Me.SearchButton.Location = New System.Drawing.Point(287, 0)
-        Me.SearchButton.Margin = New System.Windows.Forms.Padding(2)
-        Me.SearchButton.Name = "SearchButton"
-        Me.SearchButton.Size = New System.Drawing.Size(94, 51)
-        Me.SearchButton.TabIndex = 9
-        Me.SearchButton.UseVisualStyleBackColor = False
-        '
         'IUserSearch
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -187,9 +188,9 @@ Partial Class IUserSearch
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.DGVUsers)
         Me.Controls.Add(Me.Label13)
-        Me.MinimumSize = New System.Drawing.Size(586, 440)
+        Me.MinimumSize = New System.Drawing.Size(1004, 542)
         Me.Name = "IUserSearch"
-        Me.Size = New System.Drawing.Size(586, 440)
+        Me.Size = New System.Drawing.Size(1004, 542)
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
         CType(Me.DGVUsers, System.ComponentModel.ISupportInitialize).EndInit()

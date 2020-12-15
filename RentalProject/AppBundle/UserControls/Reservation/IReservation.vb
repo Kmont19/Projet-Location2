@@ -72,7 +72,6 @@
             detail.BringToFront()
         End If
     End Sub
-
     Private Sub ListView1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListView1.SelectedIndexChanged
         If ListView1.Items.Count > 0 Then
             If Not IsNothing(ListView1.FocusedItem) AndAlso ListView1.FocusedItem.Index >= 0 Then
@@ -84,6 +83,4 @@
             End If
         End If
     End Sub
-
-
 End Class

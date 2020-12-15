@@ -37,7 +37,7 @@ Partial Class iCalendar
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(586, 71)
+        Me.Panel1.Size = New System.Drawing.Size(1004, 71)
         Me.Panel1.TabIndex = 11
         '
         'Label1
@@ -47,7 +47,7 @@ Partial Class iCalendar
         Me.Label1.Location = New System.Drawing.Point(0, 0)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(586, 71)
+        Me.Label1.Size = New System.Drawing.Size(1004, 71)
         Me.Label1.TabIndex = 22
         Me.Label1.Text = "Horaire"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -58,7 +58,7 @@ Partial Class iCalendar
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel2.Location = New System.Drawing.Point(0, 71)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(586, 369)
+        Me.Panel2.Size = New System.Drawing.Size(1004, 471)
         Me.Panel2.TabIndex = 12
         '
         'ITimeSheet1
@@ -70,7 +70,7 @@ Partial Class iCalendar
         Me.ITimeSheet1.Location = New System.Drawing.Point(0, 0)
         Me.ITimeSheet1.MinimumSize = New System.Drawing.Size(586, 440)
         Me.ITimeSheet1.Name = "ITimeSheet1"
-        Me.ITimeSheet1.Size = New System.Drawing.Size(586, 440)
+        Me.ITimeSheet1.Size = New System.Drawing.Size(1004, 471)
         Me.ITimeSheet1.TabIndex = 0
         '
         'iCalendar
@@ -82,9 +82,9 @@ Partial Class iCalendar
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(187, Byte), Integer), CType(CType(222, Byte), Integer), CType(CType(251, Byte), Integer))
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
-        Me.MinimumSize = New System.Drawing.Size(586, 440)
+        Me.MinimumSize = New System.Drawing.Size(1004, 542)
         Me.Name = "iCalendar"
-        Me.Size = New System.Drawing.Size(586, 440)
+        Me.Size = New System.Drawing.Size(1004, 542)
         Me.Panel1.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()

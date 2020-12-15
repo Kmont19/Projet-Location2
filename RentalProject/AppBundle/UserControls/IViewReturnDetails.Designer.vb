@@ -57,9 +57,9 @@ Partial Class IViewReturnDetails
         Me.Panel1.Controls.Add(Me.Label13)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(586, 58)
+        Me.Panel1.Size = New System.Drawing.Size(1004, 58)
         Me.Panel1.TabIndex = 6
         '
         'DeleteButton
@@ -73,8 +73,8 @@ Partial Class IViewReturnDetails
         Me.DeleteButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DeleteButton.ForeColor = System.Drawing.Color.White
         Me.DeleteButton.Image = Global.RentalProject.My.Resources.Resources.baseline_clear_white_18dp
-        Me.DeleteButton.Location = New System.Drawing.Point(492, 0)
-        Me.DeleteButton.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.DeleteButton.Location = New System.Drawing.Point(910, 0)
+        Me.DeleteButton.Margin = New System.Windows.Forms.Padding(5)
         Me.DeleteButton.Name = "DeleteButton"
         Me.DeleteButton.Size = New System.Drawing.Size(94, 58)
         Me.DeleteButton.TabIndex = 112
@@ -89,7 +89,7 @@ Partial Class IViewReturnDetails
         Me.BackButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BackButton.Image = Global.RentalProject.My.Resources.Resources.baseline_backward_black_18dp_4x
         Me.BackButton.Location = New System.Drawing.Point(0, 0)
-        Me.BackButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.BackButton.Margin = New System.Windows.Forms.Padding(2)
         Me.BackButton.Name = "BackButton"
         Me.BackButton.Size = New System.Drawing.Size(52, 58)
         Me.BackButton.TabIndex = 110
@@ -101,7 +101,7 @@ Partial Class IViewReturnDetails
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.0!)
         Me.Label13.Location = New System.Drawing.Point(0, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(586, 58)
+        Me.Label13.Size = New System.Drawing.Size(1004, 58)
         Me.Label13.TabIndex = 111
         Me.Label13.Text = "Détails de l'Historique"
         Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -128,30 +128,30 @@ Partial Class IViewReturnDetails
         Me.Panel2.Controls.Add(Me.Label1)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel2.Location = New System.Drawing.Point(0, 58)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(586, 382)
+        Me.Panel2.Size = New System.Drawing.Size(1004, 484)
         Me.Panel2.TabIndex = 9
         '
         'Comments
         '
         Me.Comments.Enabled = False
         Me.Comments.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Comments.Location = New System.Drawing.Point(398, 232)
-        Me.Comments.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Comments.Location = New System.Drawing.Point(587, 229)
+        Me.Comments.Margin = New System.Windows.Forms.Padding(2)
         Me.Comments.MaxLength = 1000
         Me.Comments.Multiline = True
         Me.Comments.Name = "Comments"
         Me.Comments.ReadOnly = True
         Me.Comments.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.Comments.Size = New System.Drawing.Size(170, 129)
+        Me.Comments.Size = New System.Drawing.Size(368, 222)
         Me.Comments.TabIndex = 110
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(394, 203)
+        Me.Label4.Location = New System.Drawing.Point(721, 196)
         Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(98, 17)
@@ -165,18 +165,18 @@ Partial Class IViewReturnDetails
         Me.Equipments.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.Equipments.BackgroundColor = System.Drawing.Color.White
         Me.Equipments.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.Equipments.Location = New System.Drawing.Point(16, 232)
+        Me.Equipments.Location = New System.Drawing.Point(46, 229)
         Me.Equipments.Name = "Equipments"
         Me.Equipments.RowHeadersWidth = 51
         Me.Equipments.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.Equipments.Size = New System.Drawing.Size(367, 128)
+        Me.Equipments.Size = New System.Drawing.Size(526, 222)
         Me.Equipments.TabIndex = 108
         '
         'Label14
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(116, 199)
+        Me.Label14.Location = New System.Drawing.Point(199, 196)
         Me.Label14.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label14.Name = "Label14"
         Me.Label14.Padding = New System.Windows.Forms.Padding(8, 4, 0, 0)
@@ -188,7 +188,7 @@ Partial Class IViewReturnDetails
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(95, 132)
+        Me.Label6.Location = New System.Drawing.Point(284, 129)
         Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(42, 17)
@@ -199,8 +199,8 @@ Partial Class IViewReturnDetails
         '
         Me.Email.Enabled = False
         Me.Email.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Email.Location = New System.Drawing.Point(141, 130)
-        Me.Email.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Email.Location = New System.Drawing.Point(330, 127)
+        Me.Email.Margin = New System.Windows.Forms.Padding(2)
         Me.Email.Name = "Email"
         Me.Email.ReadOnly = True
         Me.Email.Size = New System.Drawing.Size(201, 21)
@@ -210,8 +210,8 @@ Partial Class IViewReturnDetails
         '
         Me.ID.Enabled = False
         Me.ID.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ID.Location = New System.Drawing.Point(140, 14)
-        Me.ID.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ID.Location = New System.Drawing.Point(329, 11)
+        Me.ID.Margin = New System.Windows.Forms.Padding(2)
         Me.ID.Multiline = True
         Me.ID.Name = "ID"
         Me.ID.ReadOnly = True
@@ -221,8 +221,8 @@ Partial Class IViewReturnDetails
         'ReturnDate
         '
         Me.ReturnDate.Enabled = False
-        Me.ReturnDate.Location = New System.Drawing.Point(140, 166)
-        Me.ReturnDate.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ReturnDate.Location = New System.Drawing.Point(329, 163)
+        Me.ReturnDate.Margin = New System.Windows.Forms.Padding(2)
         Me.ReturnDate.Name = "ReturnDate"
         Me.ReturnDate.Size = New System.Drawing.Size(202, 20)
         Me.ReturnDate.TabIndex = 55
@@ -231,8 +231,8 @@ Partial Class IViewReturnDetails
         '
         Me.Reception.Enabled = False
         Me.Reception.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Reception.Location = New System.Drawing.Point(364, 14)
-        Me.Reception.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Reception.Location = New System.Drawing.Point(553, 11)
+        Me.Reception.Margin = New System.Windows.Forms.Padding(2)
         Me.Reception.Multiline = True
         Me.Reception.Name = "Reception"
         Me.Reception.ReadOnly = True
@@ -243,8 +243,8 @@ Partial Class IViewReturnDetails
         '
         Me.FirstName.Enabled = False
         Me.FirstName.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.FirstName.Location = New System.Drawing.Point(140, 52)
-        Me.FirstName.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.FirstName.Location = New System.Drawing.Point(329, 49)
+        Me.FirstName.Margin = New System.Windows.Forms.Padding(2)
         Me.FirstName.Multiline = True
         Me.FirstName.Name = "FirstName"
         Me.FirstName.ReadOnly = True
@@ -255,8 +255,8 @@ Partial Class IViewReturnDetails
         '
         Me.LastName.Enabled = False
         Me.LastName.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LastName.Location = New System.Drawing.Point(364, 54)
-        Me.LastName.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.LastName.Location = New System.Drawing.Point(553, 51)
+        Me.LastName.Margin = New System.Windows.Forms.Padding(2)
         Me.LastName.Multiline = True
         Me.LastName.Name = "LastName"
         Me.LastName.ReadOnly = True
@@ -267,8 +267,8 @@ Partial Class IViewReturnDetails
         '
         Me.Status.Enabled = False
         Me.Status.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Status.Location = New System.Drawing.Point(140, 91)
-        Me.Status.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Status.Location = New System.Drawing.Point(329, 88)
+        Me.Status.Margin = New System.Windows.Forms.Padding(2)
         Me.Status.Multiline = True
         Me.Status.Name = "Status"
         Me.Status.ReadOnly = True
@@ -279,7 +279,7 @@ Partial Class IViewReturnDetails
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(46, 167)
+        Me.Label11.Location = New System.Drawing.Point(235, 164)
         Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(100, 17)
@@ -290,7 +290,7 @@ Partial Class IViewReturnDetails
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(298, 14)
+        Me.Label10.Location = New System.Drawing.Point(487, 11)
         Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(66, 17)
@@ -301,7 +301,7 @@ Partial Class IViewReturnDetails
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(94, 93)
+        Me.Label5.Location = New System.Drawing.Point(283, 90)
         Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(45, 17)
@@ -312,7 +312,7 @@ Partial Class IViewReturnDetails
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(323, 54)
+        Me.Label3.Location = New System.Drawing.Point(512, 51)
         Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(37, 17)
@@ -323,7 +323,7 @@ Partial Class IViewReturnDetails
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(84, 52)
+        Me.Label2.Location = New System.Drawing.Point(273, 49)
         Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(57, 17)
@@ -334,7 +334,7 @@ Partial Class IViewReturnDetails
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(116, 16)
+        Me.Label1.Location = New System.Drawing.Point(305, 13)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(21, 17)
@@ -350,10 +350,10 @@ Partial Class IViewReturnDetails
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(187, Byte), Integer), CType(CType(222, Byte), Integer), CType(CType(251, Byte), Integer))
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.MinimumSize = New System.Drawing.Size(586, 440)
+        Me.Margin = New System.Windows.Forms.Padding(2)
+        Me.MinimumSize = New System.Drawing.Size(1004, 542)
         Me.Name = "IViewReturnDetails"
-        Me.Size = New System.Drawing.Size(586, 440)
+        Me.Size = New System.Drawing.Size(1004, 542)
         Me.Panel1.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()

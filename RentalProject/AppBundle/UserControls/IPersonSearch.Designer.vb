@@ -59,7 +59,7 @@ Partial Class IPersonSearch
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(586, 50)
+        Me.Panel1.Size = New System.Drawing.Size(1004, 50)
         Me.Panel1.TabIndex = 2
         '
         'BackButton
@@ -82,7 +82,7 @@ Partial Class IPersonSearch
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.0!)
         Me.Label13.Location = New System.Drawing.Point(0, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(586, 50)
+        Me.Label13.Size = New System.Drawing.Size(1004, 50)
         Me.Label13.TabIndex = 23
         Me.Label13.Text = "Recherche - Personne"
         Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -107,7 +107,7 @@ Partial Class IPersonSearch
         Me.Panel2.Location = New System.Drawing.Point(0, 50)
         Me.Panel2.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(205, 390)
+        Me.Panel2.Size = New System.Drawing.Size(205, 492)
         Me.Panel2.TabIndex = 4
         '
         'ByLate
@@ -277,7 +277,7 @@ Partial Class IPersonSearch
         Me.Panel3.Location = New System.Drawing.Point(205, 50)
         Me.Panel3.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(381, 390)
+        Me.Panel3.Size = New System.Drawing.Size(799, 492)
         Me.Panel3.TabIndex = 5
         '
         'DGVPerson
@@ -292,17 +292,17 @@ Partial Class IPersonSearch
         Me.DGVPerson.Name = "DGVPerson"
         Me.DGVPerson.ReadOnly = True
         Me.DGVPerson.RowHeadersWidth = 51
-        Me.DGVPerson.Size = New System.Drawing.Size(381, 339)
+        Me.DGVPerson.Size = New System.Drawing.Size(799, 441)
         Me.DGVPerson.TabIndex = 10
         '
         'Panel4
         '
         Me.Panel4.Controls.Add(Me.SearchButton)
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel4.Location = New System.Drawing.Point(0, 339)
+        Me.Panel4.Location = New System.Drawing.Point(0, 441)
         Me.Panel4.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(381, 51)
+        Me.Panel4.Size = New System.Drawing.Size(799, 51)
         Me.Panel4.TabIndex = 0
         '
         'SearchButton
@@ -315,7 +315,7 @@ Partial Class IPersonSearch
         Me.SearchButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SearchButton.ForeColor = System.Drawing.Color.White
         Me.SearchButton.Image = Global.RentalProject.My.Resources.Resources.baseline_search_white_18dp
-        Me.SearchButton.Location = New System.Drawing.Point(287, 0)
+        Me.SearchButton.Location = New System.Drawing.Point(705, 0)
         Me.SearchButton.Margin = New System.Windows.Forms.Padding(2)
         Me.SearchButton.Name = "SearchButton"
         Me.SearchButton.Size = New System.Drawing.Size(94, 51)
@@ -332,9 +332,9 @@ Partial Class IPersonSearch
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
-        Me.MinimumSize = New System.Drawing.Size(586, 440)
+        Me.MinimumSize = New System.Drawing.Size(1004, 542)
         Me.Name = "IPersonSearch"
-        Me.Size = New System.Drawing.Size(586, 440)
+        Me.Size = New System.Drawing.Size(1004, 542)
         Me.Panel1.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
