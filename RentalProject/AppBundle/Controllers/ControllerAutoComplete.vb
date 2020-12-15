@@ -74,11 +74,12 @@ Module ControllerAutoComplete
     End Sub
 
     Public Sub createEquipmentStatusAutoComplete(ByVal txt As TextBox)
-        Dim MySource As New AutoCompleteStringCollection()
-        MySource.Add("Neuf")
-        MySource.Add("Endommagé")
-        MySource.Add("En réparation")
-        MySource.Add("Brisé")
+        Dim MySource As New AutoCompleteStringCollection From {
+            "Neuf",
+            "Endommagé",
+            "En réparation",
+            "Brisé"
+        }
         With txt
             .Text = Regex.Replace(.Text, "[\d-]", String.Empty)
             .AutoCompleteMode = AutoCompleteMode.SuggestAppend

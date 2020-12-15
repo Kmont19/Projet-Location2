@@ -39,7 +39,6 @@ Public Class EntityReservations
 
     Public Function Empruntnextid() As Integer
         Dim command As New MySqlCommand
-        Dim ID As Integer
         command.Connection = connection
         command.CommandText = "select max(distinct id) from reservation"
         connection.Open()

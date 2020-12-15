@@ -22,7 +22,7 @@
     ''' </summary>
     ''' <param name="data"></param>
     ''' <returns></returns>
-    Public Function loadData(data As DataTable)
+    Public Sub loadData(data As DataTable)
         ListView1.Items.Clear()
         Dim rentalTable As DataTable = data
         If Not rentalTable.Rows.Count > 0 Then
@@ -34,7 +34,7 @@
                 End If
             Next
         End If
-    End Function
+    End Sub
 
     Private Sub DetailsButton_EnabledChanged(sender As Object, e As EventArgs) Handles DetailsButton.EnabledChanged, ReturnButton.EnabledChanged
         If DetailsButton.Enabled Then

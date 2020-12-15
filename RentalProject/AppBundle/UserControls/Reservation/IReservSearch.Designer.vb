@@ -50,7 +50,7 @@ Partial Class IReservSearch
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.0!)
         Me.Label13.Location = New System.Drawing.Point(0, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(586, 50)
+        Me.Label13.Size = New System.Drawing.Size(1004, 50)
         Me.Label13.TabIndex = 27
         Me.Label13.Text = "Recherche - Réservation"
         Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -82,7 +82,7 @@ Partial Class IReservSearch
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel2.Location = New System.Drawing.Point(0, 50)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(211, 390)
+        Me.Panel2.Size = New System.Drawing.Size(211, 492)
         Me.Panel2.TabIndex = 29
         '
         'AuthorisationName
@@ -164,13 +164,14 @@ Partial Class IReservSearch
         'ListView1
         '
         Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.Id, Me.RentedBy, Me.Authorisation})
+        Me.ListView1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ListView1.FullRowSelect = True
         Me.ListView1.HideSelection = False
         Me.ListView1.Location = New System.Drawing.Point(211, 50)
         Me.ListView1.Margin = New System.Windows.Forms.Padding(2)
         Me.ListView1.MultiSelect = False
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(375, 332)
+        Me.ListView1.Size = New System.Drawing.Size(793, 492)
         Me.ListView1.TabIndex = 30
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
@@ -195,10 +196,10 @@ Partial Class IReservSearch
         Me.Panel3.Controls.Add(Me.SearchButton)
         Me.Panel3.Controls.Add(Me.DetailsButton)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel3.Location = New System.Drawing.Point(211, 382)
+        Me.Panel3.Location = New System.Drawing.Point(211, 484)
         Me.Panel3.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(375, 58)
+        Me.Panel3.Size = New System.Drawing.Size(793, 58)
         Me.Panel3.TabIndex = 31
         '
         'SearchButton
@@ -212,7 +213,7 @@ Partial Class IReservSearch
         Me.SearchButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SearchButton.ForeColor = System.Drawing.Color.White
         Me.SearchButton.Image = Global.RentalProject.My.Resources.Resources.baseline_search_white_18dp
-        Me.SearchButton.Location = New System.Drawing.Point(124, 0)
+        Me.SearchButton.Location = New System.Drawing.Point(542, 0)
         Me.SearchButton.Margin = New System.Windows.Forms.Padding(2)
         Me.SearchButton.Name = "SearchButton"
         Me.SearchButton.Size = New System.Drawing.Size(94, 58)
@@ -229,7 +230,7 @@ Partial Class IReservSearch
         Me.DetailsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.DetailsButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DetailsButton.ForeColor = System.Drawing.Color.White
-        Me.DetailsButton.Location = New System.Drawing.Point(218, 0)
+        Me.DetailsButton.Location = New System.Drawing.Point(636, 0)
         Me.DetailsButton.Name = "DetailsButton"
         Me.DetailsButton.Size = New System.Drawing.Size(157, 58)
         Me.DetailsButton.TabIndex = 1
@@ -246,8 +247,9 @@ Partial Class IReservSearch
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.BackButton)
         Me.Controls.Add(Me.Label13)
+        Me.MinimumSize = New System.Drawing.Size(1004, 542)
         Me.Name = "IReservSearch"
-        Me.Size = New System.Drawing.Size(586, 440)
+        Me.Size = New System.Drawing.Size(1004, 542)
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
         Me.Panel3.ResumeLayout(False)

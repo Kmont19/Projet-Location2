@@ -51,20 +51,18 @@ Public Class EntityUser
     Public Function verifUser(matricule As Integer, password As String) As Boolean
 
         Dim verif = False
-        Dim bytes() As Byte = System.Text.Encoding.UTF8.GetBytes(password)
-        Dim hashOfBytes() As Byte = New System.Security.Cryptography.SHA1Managed().ComputeHash(bytes)
-        Dim strHash As String = Convert.ToBase64String(hashOfBytes)
-
-        Dim command As New MySqlCommand
-        command.Connection = connection
-        command.CommandText = $"Select count(*) from utilisateur where matricule = {matricule} and password LIKE '{password}'"
-
         Try
+            Dim passwordHashed = ModelUsers.getInstance().encryptPassword(password)
+            Dim command As New MySqlCommand
+            command.Connection = connection
+            command.CommandText = $"Select count(*) from utilisateur where matricule = {matricule} and password LIKE '{passwordHashed}'"
             connection.Open()
             Dim result = command.ExecuteScalar()
 
             If (result = 1) Then
+                ModelUsers.getInstance.connectUser(matricule)
                 verif = True
+
             Else
                 verif = False
             End If
@@ -75,6 +73,16 @@ Public Class EntityUser
         End Try
 
         Return verif
+    End Function
+
+    Public Function getUserStatut() As String
+        Dim command As New MySqlCommand
+        command.Connection = connection
+        command.CommandText = $"Select statut from utilisateur where connected = 1"
+        connection.Open()
+        Dim statut As String = command.ExecuteScalar()
+        connection.Close()
+        Return statut
     End Function
 
 End Class

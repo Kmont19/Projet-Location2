@@ -5,6 +5,7 @@
     'Public connectionString = "Server='localhost';Database='projetsession';Uid='root';Pwd='';Port=3308;"
     Public connectionString = "Server='projectcegep2020tr.hopto.org';Database='projetsession';Uid='root';Pwd='root';Port=3306;"
     Shared instance As MainForm = Nothing
+    Public userStatut As String
 
     Private Sub MainForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.CenterToScreen()
@@ -12,6 +13,12 @@
         home.Dock = DockStyle.Fill
         InterfacePanel.Controls.Add(home)
         home.BringToFront()
+
+        userStatut = EntityUser.getInstance.getUserStatut()
+        If (userStatut = "Utilisateur") Then
+            UsersButton.Hide()
+        End If
+
     End Sub
 
     Public Shared Function getInstance() As MainForm
@@ -21,8 +28,13 @@
         Return instance
     End Function
 
+    Private Sub MainForm_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+        ModelUsers.getInstance.disconnectUser()
+    End Sub
+
     Private Sub ExitButton_Click(sender As Object, e As EventArgs) Handles  CloseButton.Click
         If MessageBox.Show("Voulez-vous quitter le programme ?", "Attention", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) = DialogResult.Yes Then
+            ModelUsers.getInstance.disconnectUser()
             Me.Close()
         End If
     End Sub

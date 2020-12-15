@@ -43,7 +43,7 @@ Partial Class INotifCenter
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(586, 71)
+        Me.Panel1.Size = New System.Drawing.Size(1004, 71)
         Me.Panel1.TabIndex = 11
         '
         'Label1
@@ -53,7 +53,7 @@ Partial Class INotifCenter
         Me.Label1.Location = New System.Drawing.Point(0, 0)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(586, 71)
+        Me.Label1.Size = New System.Drawing.Size(1004, 71)
         Me.Label1.TabIndex = 22
         Me.Label1.Text = "Notification Center"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -64,10 +64,10 @@ Partial Class INotifCenter
         Me.Panel2.Controls.Add(Me.ResetButton)
         Me.Panel2.Controls.Add(Me.CancelButton)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel2.Location = New System.Drawing.Point(0, 382)
+        Me.Panel2.Location = New System.Drawing.Point(0, 484)
         Me.Panel2.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(586, 58)
+        Me.Panel2.Size = New System.Drawing.Size(1004, 58)
         Me.Panel2.TabIndex = 89
         '
         'SaveButton
@@ -80,7 +80,7 @@ Partial Class INotifCenter
         Me.SaveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.SaveButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SaveButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(58, Byte), Integer), CType(CType(212, Byte), Integer), CType(CType(58, Byte), Integer))
-        Me.SaveButton.Location = New System.Drawing.Point(196, 0)
+        Me.SaveButton.Location = New System.Drawing.Point(614, 0)
         Me.SaveButton.Margin = New System.Windows.Forms.Padding(2)
         Me.SaveButton.Name = "SaveButton"
         Me.SaveButton.Size = New System.Drawing.Size(130, 58)
@@ -98,7 +98,7 @@ Partial Class INotifCenter
         Me.ResetButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ResetButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ResetButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(58, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(212, Byte), Integer))
-        Me.ResetButton.Location = New System.Drawing.Point(326, 0)
+        Me.ResetButton.Location = New System.Drawing.Point(744, 0)
         Me.ResetButton.Margin = New System.Windows.Forms.Padding(2)
         Me.ResetButton.Name = "ResetButton"
         Me.ResetButton.Size = New System.Drawing.Size(130, 58)
@@ -116,7 +116,7 @@ Partial Class INotifCenter
         Me.CancelButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CancelButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CancelButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(212, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(58, Byte), Integer))
-        Me.CancelButton.Location = New System.Drawing.Point(456, 0)
+        Me.CancelButton.Location = New System.Drawing.Point(874, 0)
         Me.CancelButton.Margin = New System.Windows.Forms.Padding(2)
         Me.CancelButton.Name = "CancelButton"
         Me.CancelButton.Size = New System.Drawing.Size(130, 58)
@@ -126,9 +126,9 @@ Partial Class INotifCenter
         '
         'RichTextBox1
         '
-        Me.RichTextBox1.Location = New System.Drawing.Point(196, 100)
+        Me.RichTextBox1.Location = New System.Drawing.Point(187, 100)
         Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(371, 164)
+        Me.RichTextBox1.Size = New System.Drawing.Size(777, 344)
         Me.RichTextBox1.TabIndex = 90
         Me.RichTextBox1.Text = ""
         '
@@ -142,7 +142,7 @@ Partial Class INotifCenter
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(193, 267)
+        Me.Label8.Location = New System.Drawing.Point(184, 460)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(197, 13)
         Me.Label8.TabIndex = 97
@@ -160,9 +160,9 @@ Partial Class INotifCenter
         Me.Controls.Add(Me.RichTextBox1)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
-        Me.MinimumSize = New System.Drawing.Size(586, 440)
+        Me.MinimumSize = New System.Drawing.Size(1004, 542)
         Me.Name = "INotifCenter"
-        Me.Size = New System.Drawing.Size(586, 440)
+        Me.Size = New System.Drawing.Size(1004, 542)
         Me.Panel1.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()

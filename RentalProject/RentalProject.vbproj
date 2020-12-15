@@ -144,7 +144,6 @@
       <DependentUpon>MainForm.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AppBundle\Model\ModelConnexion.vb" />
     <Compile Include="AppBundle\Model\ModelEquipment.vb" />
     <Compile Include="AppBundle\Model\ModelPerson.vb" />
     <Compile Include="AppBundle\Model\ModelRental.vb" />
@@ -348,6 +347,18 @@
       <DependentUpon>IStatsMain.vb</DependentUpon>
     </Compile>
     <Compile Include="AppBundle\UserControls\Statistique\IStatsMain.vb" />
+    <Compile Include="AppBundle\UserControls\Connexion\ICreateUser.Designer.vb">
+      <DependentUpon>ICreateUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AppBundle\UserControls\Connexion\ICreateUser.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AppBundle\UserControls\Connexion\IConnexion.Designer.vb">
+      <DependentUpon>IConnexion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AppBundle\UserControls\Connexion\IConnexion.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="AppBundle\UserControls\Utilisateurs\IUsers.Designer.vb">
       <DependentUpon>IUsers.vb</DependentUpon>
     </Compile>
@@ -453,6 +464,9 @@
     <EmbeddedResource Include="AppBundle\UserControls\IEquipmentDetails.resx">
       <DependentUpon>IEquipmentDetails.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AppBundle\UserControls\Notification\INotifCenter.resx">
+      <DependentUpon>INotifCenter.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AppBundle\UserControls\Reservation\IAddPersonReserv.resx">
       <DependentUpon>IAddPersonReserv.vb</DependentUpon>
     </EmbeddedResource>
@@ -482,6 +496,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AppBundle\UserControls\Reservation\IReservSearch.resx">
       <DependentUpon>IReservSearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppBundle\UserControls\Connexion\ICreateUser.resx">
+      <DependentUpon>ICreateUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppBundle\UserControls\Connexion\IConnexion.resx">
+      <DependentUpon>IConnexion.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AppBundle\UserControls\Utilisateurs\IUsers.resx">
       <DependentUpon>IUsers.vb</DependentUpon>

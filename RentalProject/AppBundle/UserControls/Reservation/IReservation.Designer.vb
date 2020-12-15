@@ -55,10 +55,10 @@ Partial Class IReservation
         Me.Panel6.Controls.Add(Me.ReturnButton)
         Me.Panel6.Controls.Add(Me.ReservButton)
         Me.Panel6.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel6.Location = New System.Drawing.Point(0, 368)
+        Me.Panel6.Location = New System.Drawing.Point(0, 470)
         Me.Panel6.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(586, 72)
+        Me.Panel6.Size = New System.Drawing.Size(1004, 72)
         Me.Panel6.TabIndex = 6
         '
         'WarningLabel
@@ -101,7 +101,7 @@ Partial Class IReservation
         Me.SearchButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SearchButton.ForeColor = System.Drawing.Color.White
         Me.SearchButton.Image = Global.RentalProject.My.Resources.Resources.baseline_search_white_18dp
-        Me.SearchButton.Location = New System.Drawing.Point(261, 0)
+        Me.SearchButton.Location = New System.Drawing.Point(679, 0)
         Me.SearchButton.Margin = New System.Windows.Forms.Padding(5)
         Me.SearchButton.Name = "SearchButton"
         Me.SearchButton.Size = New System.Drawing.Size(94, 72)
@@ -118,7 +118,7 @@ Partial Class IReservation
         Me.ReturnButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ReturnButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ReturnButton.ForeColor = System.Drawing.Color.White
-        Me.ReturnButton.Location = New System.Drawing.Point(355, 0)
+        Me.ReturnButton.Location = New System.Drawing.Point(773, 0)
         Me.ReturnButton.Margin = New System.Windows.Forms.Padding(5)
         Me.ReturnButton.Name = "ReturnButton"
         Me.ReturnButton.Size = New System.Drawing.Size(121, 72)
@@ -136,7 +136,7 @@ Partial Class IReservation
         Me.ReservButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ReservButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ReservButton.ForeColor = System.Drawing.Color.White
-        Me.ReservButton.Location = New System.Drawing.Point(476, 0)
+        Me.ReservButton.Location = New System.Drawing.Point(894, 0)
         Me.ReservButton.Margin = New System.Windows.Forms.Padding(5)
         Me.ReservButton.Name = "ReservButton"
         Me.ReservButton.Size = New System.Drawing.Size(110, 72)
@@ -153,7 +153,7 @@ Partial Class IReservation
         Me.ListView1.Margin = New System.Windows.Forms.Padding(5)
         Me.ListView1.MultiSelect = False
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(586, 300)
+        Me.ListView1.Size = New System.Drawing.Size(1004, 402)
         Me.ListView1.TabIndex = 7
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
@@ -182,9 +182,9 @@ Partial Class IReservation
         Me.Controls.Add(Me.Panel6)
         Me.Controls.Add(Me.Label1)
         Me.Margin = New System.Windows.Forms.Padding(2)
-        Me.MinimumSize = New System.Drawing.Size(586, 440)
+        Me.MinimumSize = New System.Drawing.Size(1004, 542)
         Me.Name = "IReservation"
-        Me.Size = New System.Drawing.Size(586, 440)
+        Me.Size = New System.Drawing.Size(1004, 542)
         Me.Panel6.ResumeLayout(False)
         Me.Panel6.PerformLayout()
         Me.ResumeLayout(False)

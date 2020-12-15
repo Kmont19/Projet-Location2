@@ -52,10 +52,10 @@ Partial Class IViewReturns
         Me.Panel1.Controls.Add(Me.SearchButton)
         Me.Panel1.Controls.Add(Me.DeleteButton)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel1.Location = New System.Drawing.Point(0, 382)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel1.Location = New System.Drawing.Point(0, 484)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(586, 58)
+        Me.Panel1.Size = New System.Drawing.Size(1004, 58)
         Me.Panel1.TabIndex = 0
         '
         'DetailsButton
@@ -68,8 +68,8 @@ Partial Class IViewReturns
         Me.DetailsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.DetailsButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DetailsButton.ForeColor = System.Drawing.Color.White
-        Me.DetailsButton.Location = New System.Drawing.Point(398, 0)
-        Me.DetailsButton.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.DetailsButton.Location = New System.Drawing.Point(816, 0)
+        Me.DetailsButton.Margin = New System.Windows.Forms.Padding(5)
         Me.DetailsButton.Name = "DetailsButton"
         Me.DetailsButton.Size = New System.Drawing.Size(94, 58)
         Me.DetailsButton.TabIndex = 7
@@ -88,7 +88,7 @@ Partial Class IViewReturns
         Me.SearchButton.ForeColor = System.Drawing.Color.White
         Me.SearchButton.Image = Global.RentalProject.My.Resources.Resources.baseline_search_white_18dp
         Me.SearchButton.Location = New System.Drawing.Point(0, 0)
-        Me.SearchButton.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.SearchButton.Margin = New System.Windows.Forms.Padding(5)
         Me.SearchButton.Name = "SearchButton"
         Me.SearchButton.Size = New System.Drawing.Size(94, 58)
         Me.SearchButton.TabIndex = 6
@@ -105,8 +105,8 @@ Partial Class IViewReturns
         Me.DeleteButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DeleteButton.ForeColor = System.Drawing.Color.White
         Me.DeleteButton.Image = Global.RentalProject.My.Resources.Resources.baseline_clear_white_18dp
-        Me.DeleteButton.Location = New System.Drawing.Point(492, 0)
-        Me.DeleteButton.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.DeleteButton.Location = New System.Drawing.Point(910, 0)
+        Me.DeleteButton.Margin = New System.Windows.Forms.Padding(5)
         Me.DeleteButton.Name = "DeleteButton"
         Me.DeleteButton.Size = New System.Drawing.Size(94, 58)
         Me.DeleteButton.TabIndex = 5
@@ -117,9 +117,9 @@ Partial Class IViewReturns
         Me.Panel3.Controls.Add(Me.Label13)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel3.Location = New System.Drawing.Point(0, 0)
-        Me.Panel3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(586, 58)
+        Me.Panel3.Size = New System.Drawing.Size(1004, 58)
         Me.Panel3.TabIndex = 2
         '
         'Label13
@@ -128,7 +128,7 @@ Partial Class IViewReturns
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.0!)
         Me.Label13.Location = New System.Drawing.Point(0, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(586, 58)
+        Me.Label13.Size = New System.Drawing.Size(1004, 58)
         Me.Label13.TabIndex = 26
         Me.Label13.Text = "Historique d'Emprunts"
         Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -145,9 +145,9 @@ Partial Class IViewReturns
         Me.Panel2.Controls.Add(Me.ByReception)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel2.Location = New System.Drawing.Point(0, 58)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(196, 324)
+        Me.Panel2.Size = New System.Drawing.Size(196, 426)
         Me.Panel2.TabIndex = 3
         '
         'Button1
@@ -161,7 +161,7 @@ Partial Class IViewReturns
         Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Image = Global.RentalProject.My.Resources.Resources.baseline_sync_black_18dp
         Me.Button1.Location = New System.Drawing.Point(167, 0)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(5)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(29, 32)
         Me.Button1.TabIndex = 58
@@ -171,7 +171,7 @@ Partial Class IViewReturns
         '
         Me.ReturnDate.Enabled = False
         Me.ReturnDate.Location = New System.Drawing.Point(7, 236)
-        Me.ReturnDate.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ReturnDate.Margin = New System.Windows.Forms.Padding(2)
         Me.ReturnDate.Name = "ReturnDate"
         Me.ReturnDate.Size = New System.Drawing.Size(186, 20)
         Me.ReturnDate.TabIndex = 57
@@ -181,7 +181,7 @@ Partial Class IViewReturns
         Me.ByDate.AutoSize = True
         Me.ByDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ByDate.Location = New System.Drawing.Point(19, 203)
-        Me.ByDate.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ByDate.Margin = New System.Windows.Forms.Padding(2)
         Me.ByDate.Name = "ByDate"
         Me.ByDate.Size = New System.Drawing.Size(118, 21)
         Me.ByDate.TabIndex = 29
@@ -194,7 +194,7 @@ Partial Class IViewReturns
         Me.RenterName.Enabled = False
         Me.RenterName.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RenterName.Location = New System.Drawing.Point(19, 156)
-        Me.RenterName.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RenterName.Margin = New System.Windows.Forms.Padding(2)
         Me.RenterName.Name = "RenterName"
         Me.RenterName.Size = New System.Drawing.Size(162, 21)
         Me.RenterName.TabIndex = 28
@@ -204,7 +204,7 @@ Partial Class IViewReturns
         Me.ByEquipment.AutoSize = True
         Me.ByEquipment.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ByEquipment.Location = New System.Drawing.Point(19, 126)
-        Me.ByEquipment.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ByEquipment.Margin = New System.Windows.Forms.Padding(2)
         Me.ByEquipment.Name = "ByEquipment"
         Me.ByEquipment.Size = New System.Drawing.Size(112, 21)
         Me.ByEquipment.TabIndex = 27
@@ -228,7 +228,7 @@ Partial Class IViewReturns
         Me.Reception.Enabled = False
         Me.Reception.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Reception.Location = New System.Drawing.Point(19, 73)
-        Me.Reception.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Reception.Margin = New System.Windows.Forms.Padding(2)
         Me.Reception.Name = "Reception"
         Me.Reception.Size = New System.Drawing.Size(162, 21)
         Me.Reception.TabIndex = 22
@@ -238,7 +238,7 @@ Partial Class IViewReturns
         Me.ByReception.AutoSize = True
         Me.ByReception.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ByReception.Location = New System.Drawing.Point(19, 43)
-        Me.ByReception.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ByReception.Margin = New System.Windows.Forms.Padding(2)
         Me.ByReception.Name = "ByReception"
         Me.ByReception.Size = New System.Drawing.Size(90, 21)
         Me.ByReception.TabIndex = 21
@@ -251,9 +251,9 @@ Partial Class IViewReturns
         Me.Panel4.Controls.Add(Me.DataGridView1)
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel4.Location = New System.Drawing.Point(196, 58)
-        Me.Panel4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel4.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(390, 324)
+        Me.Panel4.Size = New System.Drawing.Size(808, 426)
         Me.Panel4.TabIndex = 4
         '
         'DataGridView1
@@ -265,13 +265,13 @@ Partial Class IViewReturns
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DataGridView1.Location = New System.Drawing.Point(0, 0)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
         Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DataGridView1.Size = New System.Drawing.Size(390, 324)
+        Me.DataGridView1.Size = New System.Drawing.Size(808, 426)
         Me.DataGridView1.TabIndex = 0
         '
         'IViewReturns
@@ -285,10 +285,10 @@ Partial Class IViewReturns
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.MinimumSize = New System.Drawing.Size(586, 440)
+        Me.Margin = New System.Windows.Forms.Padding(2)
+        Me.MinimumSize = New System.Drawing.Size(1004, 542)
         Me.Name = "IViewReturns"
-        Me.Size = New System.Drawing.Size(586, 440)
+        Me.Size = New System.Drawing.Size(1004, 542)
         Me.Panel1.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)

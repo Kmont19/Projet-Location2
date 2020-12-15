@@ -50,7 +50,6 @@ Partial Class IAddEmprunt
         Me.EquipmentCollection = New System.Windows.Forms.ListView()
         Me.EquipmentID = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.EquipmentName = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.NewPersonButton = New System.Windows.Forms.Button()
         Me.SelectButton = New System.Windows.Forms.Button()
         Me.Person = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
@@ -64,7 +63,7 @@ Partial Class IAddEmprunt
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(26, 80)
+        Me.Label1.Location = New System.Drawing.Point(209, 116)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(94, 17)
         Me.Label1.TabIndex = 3
@@ -74,7 +73,7 @@ Partial Class IAddEmprunt
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(47, 121)
+        Me.Label2.Location = New System.Drawing.Point(230, 157)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(69, 17)
         Me.Label2.TabIndex = 4
@@ -84,7 +83,7 @@ Partial Class IAddEmprunt
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(35, 164)
+        Me.Label3.Location = New System.Drawing.Point(218, 200)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(83, 17)
         Me.Label3.TabIndex = 5
@@ -92,7 +91,7 @@ Partial Class IAddEmprunt
         '
         'TbAutorise
         '
-        Me.TbAutorise.Location = New System.Drawing.Point(119, 203)
+        Me.TbAutorise.Location = New System.Drawing.Point(302, 239)
         Me.TbAutorise.MaxLength = 30
         Me.TbAutorise.Name = "TbAutorise"
         Me.TbAutorise.Size = New System.Drawing.Size(200, 20)
@@ -101,7 +100,7 @@ Partial Class IAddEmprunt
         'DateTimePicker1
         '
         Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.DateTimePicker1.Location = New System.Drawing.Point(46, 340)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(229, 376)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(234, 20)
         Me.DateTimePicker1.TabIndex = 7
@@ -111,7 +110,7 @@ Partial Class IAddEmprunt
         Me.CbCategorie.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.CbCategorie.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CbCategorie.FormattingEnabled = True
-        Me.CbCategorie.Location = New System.Drawing.Point(119, 121)
+        Me.CbCategorie.Location = New System.Drawing.Point(302, 157)
         Me.CbCategorie.Name = "CbCategorie"
         Me.CbCategorie.Size = New System.Drawing.Size(200, 21)
         Me.CbCategorie.TabIndex = 9
@@ -122,14 +121,14 @@ Partial Class IAddEmprunt
         Me.CbEquipement.Enabled = False
         Me.CbEquipement.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CbEquipement.FormattingEnabled = True
-        Me.CbEquipement.Location = New System.Drawing.Point(119, 164)
+        Me.CbEquipement.Location = New System.Drawing.Point(302, 200)
         Me.CbEquipement.Name = "CbEquipement"
         Me.CbEquipement.Size = New System.Drawing.Size(161, 21)
         Me.CbEquipement.TabIndex = 10
         '
         'NumericUpDownJour
         '
-        Me.NumericUpDownJour.Location = New System.Drawing.Point(46, 289)
+        Me.NumericUpDownJour.Location = New System.Drawing.Point(229, 325)
         Me.NumericUpDownJour.Maximum = New Decimal(New Integer() {720, 0, 0, 0})
         Me.NumericUpDownJour.Name = "NumericUpDownJour"
         Me.NumericUpDownJour.Size = New System.Drawing.Size(61, 20)
@@ -139,7 +138,7 @@ Partial Class IAddEmprunt
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(33, 203)
+        Me.Label4.Location = New System.Drawing.Point(216, 239)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(85, 17)
         Me.Label4.TabIndex = 12
@@ -149,7 +148,7 @@ Partial Class IAddEmprunt
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(14, 271)
+        Me.Label5.Location = New System.Drawing.Point(197, 307)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(150, 17)
         Me.Label5.TabIndex = 13
@@ -159,7 +158,7 @@ Partial Class IAddEmprunt
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(64, 320)
+        Me.Label6.Location = New System.Drawing.Point(247, 356)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(100, 17)
         Me.Label6.TabIndex = 14
@@ -169,7 +168,7 @@ Partial Class IAddEmprunt
         '
         Me.CheckBox1.AutoSize = True
         Me.CheckBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox1.Location = New System.Drawing.Point(202, 317)
+        Me.CheckBox1.Location = New System.Drawing.Point(385, 353)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(86, 21)
         Me.CheckBox1.TabIndex = 16
@@ -180,7 +179,7 @@ Partial Class IAddEmprunt
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(182, 271)
+        Me.Label7.Location = New System.Drawing.Point(365, 307)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(153, 17)
         Me.Label7.TabIndex = 18
@@ -188,7 +187,7 @@ Partial Class IAddEmprunt
         '
         'NumericUpDownHeure
         '
-        Me.NumericUpDownHeure.Location = New System.Drawing.Point(218, 291)
+        Me.NumericUpDownHeure.Location = New System.Drawing.Point(401, 327)
         Me.NumericUpDownHeure.Maximum = New Decimal(New Integer() {720, 0, 0, 0})
         Me.NumericUpDownHeure.Name = "NumericUpDownHeure"
         Me.NumericUpDownHeure.Size = New System.Drawing.Size(61, 20)
@@ -201,9 +200,9 @@ Partial Class IAddEmprunt
         Me.Panel1.Controls.Add(Me.Label11)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(586, 50)
+        Me.Panel1.Size = New System.Drawing.Size(1004, 50)
         Me.Panel1.TabIndex = 22
         '
         'BackButton
@@ -215,7 +214,7 @@ Partial Class IAddEmprunt
         Me.BackButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BackButton.Image = Global.RentalProject.My.Resources.Resources.baseline_backward_black_18dp_4x
         Me.BackButton.Location = New System.Drawing.Point(0, 0)
-        Me.BackButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.BackButton.Margin = New System.Windows.Forms.Padding(2)
         Me.BackButton.Name = "BackButton"
         Me.BackButton.Size = New System.Drawing.Size(52, 50)
         Me.BackButton.TabIndex = 0
@@ -227,15 +226,15 @@ Partial Class IAddEmprunt
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.0!)
         Me.Label11.Location = New System.Drawing.Point(0, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(586, 50)
+        Me.Label11.Size = New System.Drawing.Size(1004, 50)
         Me.Label11.TabIndex = 15
         Me.Label11.Text = "Ajout d'un Emprunt"
         Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Comments
         '
-        Me.Comments.Location = New System.Drawing.Point(336, 271)
-        Me.Comments.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Comments.Location = New System.Drawing.Point(519, 307)
+        Me.Comments.Margin = New System.Windows.Forms.Padding(2)
         Me.Comments.MaxLength = 1000
         Me.Comments.Multiline = True
         Me.Comments.Name = "Comments"
@@ -247,7 +246,7 @@ Partial Class IAddEmprunt
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(333, 253)
+        Me.Label10.Location = New System.Drawing.Point(516, 289)
         Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(98, 17)
@@ -260,10 +259,10 @@ Partial Class IAddEmprunt
         Me.Panel2.Controls.Add(Me.ResetButton)
         Me.Panel2.Controls.Add(Me.CancelButton)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel2.Location = New System.Drawing.Point(0, 382)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel2.Location = New System.Drawing.Point(0, 484)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(586, 58)
+        Me.Panel2.Size = New System.Drawing.Size(1004, 58)
         Me.Panel2.TabIndex = 88
         '
         'SaveButton
@@ -276,8 +275,8 @@ Partial Class IAddEmprunt
         Me.SaveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.SaveButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SaveButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(58, Byte), Integer), CType(CType(212, Byte), Integer), CType(CType(58, Byte), Integer))
-        Me.SaveButton.Location = New System.Drawing.Point(196, 0)
-        Me.SaveButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.SaveButton.Location = New System.Drawing.Point(614, 0)
+        Me.SaveButton.Margin = New System.Windows.Forms.Padding(2)
         Me.SaveButton.Name = "SaveButton"
         Me.SaveButton.Size = New System.Drawing.Size(130, 58)
         Me.SaveButton.TabIndex = 87
@@ -294,8 +293,8 @@ Partial Class IAddEmprunt
         Me.ResetButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ResetButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ResetButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(58, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(212, Byte), Integer))
-        Me.ResetButton.Location = New System.Drawing.Point(326, 0)
-        Me.ResetButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ResetButton.Location = New System.Drawing.Point(744, 0)
+        Me.ResetButton.Margin = New System.Windows.Forms.Padding(2)
         Me.ResetButton.Name = "ResetButton"
         Me.ResetButton.Size = New System.Drawing.Size(130, 58)
         Me.ResetButton.TabIndex = 86
@@ -312,8 +311,8 @@ Partial Class IAddEmprunt
         Me.CancelButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CancelButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CancelButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(212, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(58, Byte), Integer))
-        Me.CancelButton.Location = New System.Drawing.Point(456, 0)
-        Me.CancelButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.CancelButton.Location = New System.Drawing.Point(874, 0)
+        Me.CancelButton.Margin = New System.Windows.Forms.Padding(2)
         Me.CancelButton.Name = "CancelButton"
         Me.CancelButton.Size = New System.Drawing.Size(130, 58)
         Me.CancelButton.TabIndex = 85
@@ -324,7 +323,7 @@ Partial Class IAddEmprunt
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(333, 54)
+        Me.Label9.Location = New System.Drawing.Point(516, 90)
         Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(171, 17)
@@ -334,7 +333,7 @@ Partial Class IAddEmprunt
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(343, 226)
+        Me.Label8.Location = New System.Drawing.Point(526, 262)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(185, 13)
         Me.Label8.TabIndex = 96
@@ -345,7 +344,7 @@ Partial Class IAddEmprunt
         Me.EquipmentCollection.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.EquipmentID, Me.EquipmentName})
         Me.EquipmentCollection.FullRowSelect = True
         Me.EquipmentCollection.HideSelection = False
-        Me.EquipmentCollection.Location = New System.Drawing.Point(336, 74)
+        Me.EquipmentCollection.Location = New System.Drawing.Point(519, 110)
         Me.EquipmentCollection.MultiSelect = False
         Me.EquipmentCollection.Name = "EquipmentCollection"
         Me.EquipmentCollection.Size = New System.Drawing.Size(246, 149)
@@ -363,24 +362,6 @@ Partial Class IAddEmprunt
         Me.EquipmentName.Text = "Nom d'équipement"
         Me.EquipmentName.Width = 173
         '
-        'NewPersonButton
-        '
-        Me.NewPersonButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
-        Me.NewPersonButton.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.NewPersonButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(187, Byte), Integer), CType(CType(222, Byte), Integer), CType(CType(251, Byte), Integer))
-        Me.NewPersonButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(67, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(96, Byte), Integer))
-        Me.NewPersonButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.NewPersonButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NewPersonButton.ForeColor = System.Drawing.Color.White
-        Me.NewPersonButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.NewPersonButton.Location = New System.Drawing.Point(286, 76)
-        Me.NewPersonButton.Name = "NewPersonButton"
-        Me.NewPersonButton.Size = New System.Drawing.Size(33, 21)
-        Me.NewPersonButton.TabIndex = 102
-        Me.NewPersonButton.Text = "+"
-        Me.NewPersonButton.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.NewPersonButton.UseVisualStyleBackColor = False
-        '
         'SelectButton
         '
         Me.SelectButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
@@ -391,7 +372,7 @@ Partial Class IAddEmprunt
         Me.SelectButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SelectButton.ForeColor = System.Drawing.Color.White
         Me.SelectButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.SelectButton.Location = New System.Drawing.Point(286, 164)
+        Me.SelectButton.Location = New System.Drawing.Point(469, 200)
         Me.SelectButton.Name = "SelectButton"
         Me.SelectButton.Size = New System.Drawing.Size(33, 21)
         Me.SelectButton.TabIndex = 101
@@ -401,22 +382,22 @@ Partial Class IAddEmprunt
         '
         'Person
         '
-        Me.Person.Location = New System.Drawing.Point(119, 78)
+        Me.Person.Location = New System.Drawing.Point(302, 114)
         Me.Person.MaxLength = 30
         Me.Person.Name = "Person"
-        Me.Person.Size = New System.Drawing.Size(161, 20)
+        Me.Person.Size = New System.Drawing.Size(200, 20)
         Me.Person.TabIndex = 103
         '
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(117, 61)
+        Me.Label12.Location = New System.Drawing.Point(300, 97)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(71, 13)
         Me.Label12.TabIndex = 104
         Me.Label12.Text = "Nom, Prénom"
         '
-        'IEmprunt
+        'IAddEmprunt
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -425,7 +406,6 @@ Partial Class IAddEmprunt
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(187, Byte), Integer), CType(CType(222, Byte), Integer), CType(CType(251, Byte), Integer))
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Person)
-        Me.Controls.Add(Me.NewPersonButton)
         Me.Controls.Add(Me.SelectButton)
         Me.Controls.Add(Me.EquipmentCollection)
         Me.Controls.Add(Me.Label8)
@@ -448,9 +428,9 @@ Partial Class IAddEmprunt
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.MinimumSize = New System.Drawing.Size(586, 440)
-        Me.Name = "IEmprunt"
-        Me.Size = New System.Drawing.Size(586, 440)
+        Me.MinimumSize = New System.Drawing.Size(1004, 542)
+        Me.Name = "IAddEmprunt"
+        Me.Size = New System.Drawing.Size(1004, 542)
         CType(Me.NumericUpDownJour, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDownHeure, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
@@ -487,7 +467,6 @@ Partial Class IAddEmprunt
     Friend WithEvents EquipmentCollection As ListView
     Friend WithEvents EquipmentID As ColumnHeader
     Friend WithEvents EquipmentName As ColumnHeader
-    Friend WithEvents NewPersonButton As Button
     Friend WithEvents SelectButton As Button
     Friend WithEvents Label11 As Label
     Friend WithEvents Person As TextBox
