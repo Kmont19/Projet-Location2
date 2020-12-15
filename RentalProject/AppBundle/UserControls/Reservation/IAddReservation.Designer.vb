@@ -25,7 +25,6 @@ Partial Class IAddReservation
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Person = New System.Windows.Forms.TextBox()
-        Me.NewPersonButton = New System.Windows.Forms.Button()
         Me.SelectButton = New System.Windows.Forms.Button()
         Me.EquipmentCollection = New System.Windows.Forms.ListView()
         Me.EquipmentID = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
@@ -83,26 +82,8 @@ Partial Class IAddReservation
         Me.Person.Location = New System.Drawing.Point(123, 111)
         Me.Person.MaxLength = 30
         Me.Person.Name = "Person"
-        Me.Person.Size = New System.Drawing.Size(161, 20)
+        Me.Person.Size = New System.Drawing.Size(200, 20)
         Me.Person.TabIndex = 126
-        '
-        'NewPersonButton
-        '
-        Me.NewPersonButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
-        Me.NewPersonButton.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.NewPersonButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(187, Byte), Integer), CType(CType(222, Byte), Integer), CType(CType(251, Byte), Integer))
-        Me.NewPersonButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(67, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(96, Byte), Integer))
-        Me.NewPersonButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.NewPersonButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NewPersonButton.ForeColor = System.Drawing.Color.White
-        Me.NewPersonButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.NewPersonButton.Location = New System.Drawing.Point(290, 109)
-        Me.NewPersonButton.Name = "NewPersonButton"
-        Me.NewPersonButton.Size = New System.Drawing.Size(33, 21)
-        Me.NewPersonButton.TabIndex = 125
-        Me.NewPersonButton.Text = "+"
-        Me.NewPersonButton.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.NewPersonButton.UseVisualStyleBackColor = False
         '
         'SelectButton
         '
@@ -410,7 +391,6 @@ Partial Class IAddReservation
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Person)
-        Me.Controls.Add(Me.NewPersonButton)
         Me.Controls.Add(Me.SelectButton)
         Me.Controls.Add(Me.EquipmentCollection)
         Me.Controls.Add(Me.Label8)
@@ -445,7 +425,6 @@ Partial Class IAddReservation
     Friend WithEvents Label11 As Label
     Friend WithEvents Label12 As Label
     Friend WithEvents Person As TextBox
-    Friend WithEvents NewPersonButton As Button
     Friend WithEvents SelectButton As Button
     Friend WithEvents EquipmentCollection As ListView
     Friend WithEvents EquipmentID As ColumnHeader
