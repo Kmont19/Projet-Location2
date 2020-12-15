@@ -15,6 +15,7 @@
     End Sub
 
     Private Sub btGraph2_Click(sender As Object, e As EventArgs) Handles btGraph2.Click
+        Me.GraphEquip.Series("Locations").Points.Clear()
         Dim nbr
 
         Dim item As DataTable = EntityEquipment.getInstance().getNbrEquipement()
