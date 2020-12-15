@@ -29,10 +29,10 @@ Partial Class IUserSearch
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TBMatricule = New System.Windows.Forms.TextBox()
         Me.ByMatricule = New System.Windows.Forms.RadioButton()
-        Me.BackButton = New System.Windows.Forms.Button()
         Me.DGVUsers = New System.Windows.Forms.DataGridView()
-        Me.SearchButton = New System.Windows.Forms.Button()
         Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.BackButton = New System.Windows.Forms.Button()
+        Me.SearchButton = New System.Windows.Forms.Button()
         Me.Panel2.SuspendLayout()
         CType(Me.DGVUsers, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel4.SuspendLayout()
@@ -69,7 +69,7 @@ Partial Class IUserSearch
         Me.CBStatut.Enabled = False
         Me.CBStatut.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CBStatut.FormattingEnabled = True
-        Me.CBStatut.Items.AddRange(New Object() {"Étudiant", "Professeur", "Technicien", "Administration"})
+        Me.CBStatut.Items.AddRange(New Object() {"Utilisateur", "Administrateur"})
         Me.CBStatut.Location = New System.Drawing.Point(25, 226)
         Me.CBStatut.Name = "CBStatut"
         Me.CBStatut.Size = New System.Drawing.Size(162, 21)
@@ -122,19 +122,6 @@ Partial Class IUserSearch
         Me.ByMatricule.Text = "Matricule"
         Me.ByMatricule.UseVisualStyleBackColor = True
         '
-        'BackButton
-        '
-        Me.BackButton.FlatAppearance.BorderSize = 0
-        Me.BackButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(184, Byte), Integer), CType(CType(206, Byte), Integer))
-        Me.BackButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BackButton.Image = Global.RentalProject.My.Resources.Resources.baseline_backward_black_18dp_4x
-        Me.BackButton.Location = New System.Drawing.Point(0, 0)
-        Me.BackButton.Margin = New System.Windows.Forms.Padding(2)
-        Me.BackButton.Name = "BackButton"
-        Me.BackButton.Size = New System.Drawing.Size(70, 50)
-        Me.BackButton.TabIndex = 28
-        Me.BackButton.UseVisualStyleBackColor = True
-        '
         'DGVUsers
         '
         Me.DGVUsers.AllowUserToAddRows = False
@@ -148,6 +135,29 @@ Partial Class IUserSearch
         Me.DGVUsers.RowHeadersWidth = 51
         Me.DGVUsers.Size = New System.Drawing.Size(381, 341)
         Me.DGVUsers.TabIndex = 25
+        '
+        'Panel4
+        '
+        Me.Panel4.Controls.Add(Me.SearchButton)
+        Me.Panel4.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.Panel4.Location = New System.Drawing.Point(205, 389)
+        Me.Panel4.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(381, 51)
+        Me.Panel4.TabIndex = 27
+        '
+        'BackButton
+        '
+        Me.BackButton.FlatAppearance.BorderSize = 0
+        Me.BackButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(103, Byte), Integer), CType(CType(184, Byte), Integer), CType(CType(206, Byte), Integer))
+        Me.BackButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BackButton.Image = Global.RentalProject.My.Resources.Resources.baseline_backward_black_18dp_4x
+        Me.BackButton.Location = New System.Drawing.Point(0, 0)
+        Me.BackButton.Margin = New System.Windows.Forms.Padding(2)
+        Me.BackButton.Name = "BackButton"
+        Me.BackButton.Size = New System.Drawing.Size(70, 50)
+        Me.BackButton.TabIndex = 28
+        Me.BackButton.UseVisualStyleBackColor = True
         '
         'SearchButton
         '
@@ -165,16 +175,6 @@ Partial Class IUserSearch
         Me.SearchButton.Size = New System.Drawing.Size(94, 51)
         Me.SearchButton.TabIndex = 9
         Me.SearchButton.UseVisualStyleBackColor = False
-        '
-        'Panel4
-        '
-        Me.Panel4.Controls.Add(Me.SearchButton)
-        Me.Panel4.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel4.Location = New System.Drawing.Point(205, 389)
-        Me.Panel4.Margin = New System.Windows.Forms.Padding(2)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(381, 51)
-        Me.Panel4.TabIndex = 27
         '
         'IUserSearch
         '

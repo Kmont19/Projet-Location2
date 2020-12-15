@@ -228,15 +228,6 @@ Public Class IAddEmprunt
             End If
         End If
     End Sub
-
-    Private Sub NewPersonButton_Click(sender As Object, e As EventArgs) Handles NewPersonButton.Click
-        Dim person As New IAddPerson(Me, New IPerson(MainForm))
-        person.Dock = DockStyle.Fill
-        MainForm.InterfacePanel.Controls.Add(person)
-        person.BringToFront()
-    End Sub
-
-
 End Class
 
 

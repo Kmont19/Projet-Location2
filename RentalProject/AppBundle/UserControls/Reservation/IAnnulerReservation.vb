@@ -42,12 +42,10 @@ Public Class IAnnulerReservation
     End Sub
 
     Private Sub FullReturnButton_Click(sender As Object, e As EventArgs) Handles FullReturnButton.Click
-        Dim comment As String = ""
         Dim reception As String = ""
-        Dim printed As Boolean = False
         If MessageBox.Show("Êtes-vous sûr de vouloir effectuer cette annulation?", "Attention", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) = DialogResult.Yes Then
             If MessageBox.Show("Voulez vous ajouter un commentaire à ce retour?", "Attention", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
-                comment = InputBox("Note:", "Commentaires")
+                Dim comment As String = InputBox("Note:", "Commentaires")
                 comment = Regex.Replace(comment, "'", "''")
                 comment = Regex.Replace(comment, "[^A-Za-z0-9' ]", String.Empty)
             End If
@@ -62,7 +60,6 @@ Public Class IAnnulerReservation
             For Each it As DataGridViewRow In DGVEquipments.Rows
                 Dim personNumber As DataRow = EntityReservations.getInstance().getReservByID(CInt(ReservID.Text)).Rows(0)
                 ModelReservation.getInstance().deleteReserv(ReservID.Text, it.Cells(0).Value)
-                printed = True
             Next
             reserv.loadData(EntityReservations.getInstance().getReserv())
             reserv.DetailsButton.Enabled = False

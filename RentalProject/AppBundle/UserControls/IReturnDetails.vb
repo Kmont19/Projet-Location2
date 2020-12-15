@@ -38,17 +38,17 @@ Public Class IReturnDetails
 
     Private Sub EquipReturnButton_Click(sender As Object, e As EventArgs) Handles EquipReturnButton.Click
         Dim comment As String = ""
-        Dim reception As String = ""
-        Dim equipmentNumber As String = ""
+
         If MessageBox.Show("Êtes-vous sûr de vouloir effectuer le retour pour cet equipement?", "Attention", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) = DialogResult.Yes Then
             If MessageBox.Show("Voulez vous ajouter un commentaire à ce retour?", "Attention", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
                 comment = InputBox("Note:", "Commentaires")
             End If
-            reception = InputBox("Votre Nom:", "La personne qui reçoit ce retour")
+            Dim reception As String = InputBox("Votre Nom:", "La personne qui reçoit ce retour")
             Dim selectIndex As Integer = DGVEquipments.SelectedCells(0).RowIndex
             Dim selectRow As DataGridViewRow = DGVEquipments.Rows(selectIndex)
             Dim equipment As String = selectRow.Cells("No_Équipement").Value
-            equipmentNumber = selectRow.Cells("No_Équipement").Value
+            Dim equipmentNumber As String = selectRow.Cells("No_Équipement").Value
+
             comment = Regex.Replace(comment, "'", "''")
             comment = Regex.Replace(comment, "[^A-Za-z0-9' ]", String.Empty)
             Dim personNumber As DataRow = EntityRental.getInstance().getRentalByID(CInt(RentalID.Text)).Rows(0)
