@@ -28,7 +28,7 @@
         ReservDate.CustomFormat = "dd-MM-yyyy hh:mm:ss"
         ReturnDate.CustomFormat = "dd-MM-yyyy hh:mm:ss"
 
-        DGVEquipments.DataSource = EntityEquipment.getInstance.getEquipmentRented(ReservID.Text)
+        DGVEquipments.DataSource = EntityReservations.getInstance.getEquipmentReserver(ReservID.Text)
 
     End Sub
 
