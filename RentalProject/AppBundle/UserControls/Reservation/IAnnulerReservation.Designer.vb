@@ -25,7 +25,7 @@ Partial Class IAnnulerReservation
         Me.Label13 = New System.Windows.Forms.Label()
         Me.BackButton = New System.Windows.Forms.Button()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.FullReturnButton = New System.Windows.Forms.Button()
+        Me.FullAnnulerButton = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.DGVEquipments = New System.Windows.Forms.DataGridView()
         Me.Label14 = New System.Windows.Forms.Label()
@@ -75,7 +75,7 @@ Partial Class IAnnulerReservation
         '
         'Panel3
         '
-        Me.Panel3.Controls.Add(Me.FullReturnButton)
+        Me.Panel3.Controls.Add(Me.FullAnnulerButton)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel3.Location = New System.Drawing.Point(0, 58)
         Me.Panel3.Margin = New System.Windows.Forms.Padding(2)
@@ -83,23 +83,23 @@ Partial Class IAnnulerReservation
         Me.Panel3.Size = New System.Drawing.Size(166, 484)
         Me.Panel3.TabIndex = 114
         '
-        'FullReturnButton
+        'FullAnnulerButton
         '
-        Me.FullReturnButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
-        Me.FullReturnButton.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.FullReturnButton.Dock = System.Windows.Forms.DockStyle.Top
-        Me.FullReturnButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(187, Byte), Integer), CType(CType(222, Byte), Integer), CType(CType(251, Byte), Integer))
-        Me.FullReturnButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(67, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(96, Byte), Integer))
-        Me.FullReturnButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.FullReturnButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.FullReturnButton.ForeColor = System.Drawing.Color.White
-        Me.FullReturnButton.Location = New System.Drawing.Point(0, 0)
-        Me.FullReturnButton.Margin = New System.Windows.Forms.Padding(2)
-        Me.FullReturnButton.Name = "FullReturnButton"
-        Me.FullReturnButton.Size = New System.Drawing.Size(166, 58)
-        Me.FullReturnButton.TabIndex = 115
-        Me.FullReturnButton.Text = "Annuler la réservation"
-        Me.FullReturnButton.UseVisualStyleBackColor = False
+        Me.FullAnnulerButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
+        Me.FullAnnulerButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.FullAnnulerButton.Dock = System.Windows.Forms.DockStyle.Top
+        Me.FullAnnulerButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(187, Byte), Integer), CType(CType(222, Byte), Integer), CType(CType(251, Byte), Integer))
+        Me.FullAnnulerButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(67, Byte), Integer), CType(CType(87, Byte), Integer), CType(CType(96, Byte), Integer))
+        Me.FullAnnulerButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.FullAnnulerButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FullAnnulerButton.ForeColor = System.Drawing.Color.White
+        Me.FullAnnulerButton.Location = New System.Drawing.Point(0, 0)
+        Me.FullAnnulerButton.Margin = New System.Windows.Forms.Padding(2)
+        Me.FullAnnulerButton.Name = "FullAnnulerButton"
+        Me.FullAnnulerButton.Size = New System.Drawing.Size(166, 58)
+        Me.FullAnnulerButton.TabIndex = 115
+        Me.FullAnnulerButton.Text = "Annuler la réservation"
+        Me.FullAnnulerButton.UseVisualStyleBackColor = False
         '
         'Panel2
         '
@@ -332,7 +332,7 @@ Partial Class IAnnulerReservation
     Friend WithEvents Label13 As Label
     Friend WithEvents BackButton As Button
     Friend WithEvents Panel3 As Panel
-    Friend WithEvents FullReturnButton As Button
+    Friend WithEvents FullAnnulerButton As Button
     Friend WithEvents Panel2 As Panel
     Friend WithEvents DGVEquipments As DataGridView
     Friend WithEvents Label14 As Label

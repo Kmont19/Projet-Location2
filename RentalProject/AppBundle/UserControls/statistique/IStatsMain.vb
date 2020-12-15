@@ -5,6 +5,7 @@
     Private out As Integer
 
     Private Sub btDessiner_Click(sender As Object, e As EventArgs) Handles btDessiner.Click
+        Me.GraphNbrLocation.Series("Location").Points.Clear()
         Me.GraphNbrLocation.Series("Location").Points.AddXY("Lundi", NbrLocationParJour(1))
         Me.GraphNbrLocation.Series("Location").Points.AddXY("Mardi", NbrLocationParJour(2))
         Me.GraphNbrLocation.Series("Location").Points.AddXY("Mercredi", NbrLocationParJour(3))
@@ -14,6 +15,7 @@
     End Sub
 
     Private Sub btGraph2_Click(sender As Object, e As EventArgs) Handles btGraph2.Click
+        Me.GraphEquip.Series("Locations").Points.Clear()
         Dim nbr
 
         Dim item As DataTable = EntityEquipment.getInstance().getNbrEquipement()
@@ -21,7 +23,7 @@
             nbr = Integer.Parse(it.Item(0))
         Next
 
-        For i As Integer = 1 To nbr
+        For i As Integer = 1 To nbr - 1
 
             Me.GraphEquip.Series("Locations").Points.AddXY(i, NbrLocationParEquipement(i))
 

@@ -13,11 +13,11 @@
     End Sub
 
 
-    Private Sub IReservation_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub IReservation_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         loadData(EntityReservations.getInstance().getReservation)
     End Sub
 
-    Public Function loadData(data As DataTable)
+    Public Sub loadData(data As DataTable)
         ListView1.Items.Clear()
         Dim reservationTable As DataTable = data
         If Not reservationTable.Rows.Count > 0 Then
@@ -25,11 +25,11 @@
         Else
             For Each it As DataRow In reservationTable.Rows
                 If Not IsNothing(it) Then
-                    ListView1.Items.Add(New ListViewItem({it.Item(0), it.Item(1), it.Item(2)}))
+                    ListView1.Items.Add(New ListViewItem({it.Item(0), it.Item(1), it.Item(2), it.Item(3), it.Item(4), it.Item(5)}))
                 End If
             Next
         End If
-    End Function
+    End Sub
 
     Private Sub DetailsButton_Click(sender As Object, e As EventArgs) Handles ReturnButton.EnabledChanged, DetailsButton.EnabledChanged
         If DetailsButton.Enabled Then
@@ -55,8 +55,6 @@
             annuler.BringToFront()
         End If
     End Sub
-
-
     Private Sub SearchButton_Click(sender As Object, e As EventArgs) Handles SearchButton.Click
         Dim search As New IReservSearch(mainForm, Me)
         search.Dock = DockStyle.Fill

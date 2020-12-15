@@ -33,16 +33,20 @@ Partial Class IReservation
         Me.ID = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.RentedBy = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.Authorisation = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.DateEmprunt = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.DateRetour = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.Comments = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.Panel6.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label1
         '
+        Me.Label1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.0!)
         Me.Label1.Location = New System.Drawing.Point(0, 0)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(586, 58)
+        Me.Label1.Size = New System.Drawing.Size(1004, 58)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Réservation"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -146,14 +150,15 @@ Partial Class IReservation
         '
         'ListView1
         '
-        Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ID, Me.RentedBy, Me.Authorisation})
+        Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ID, Me.RentedBy, Me.Authorisation, Me.DateEmprunt, Me.DateRetour, Me.Comments})
+        Me.ListView1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ListView1.FullRowSelect = True
         Me.ListView1.HideSelection = False
-        Me.ListView1.Location = New System.Drawing.Point(0, 63)
+        Me.ListView1.Location = New System.Drawing.Point(0, 58)
         Me.ListView1.Margin = New System.Windows.Forms.Padding(5)
         Me.ListView1.MultiSelect = False
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(1004, 402)
+        Me.ListView1.Size = New System.Drawing.Size(1004, 412)
         Me.ListView1.TabIndex = 7
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
@@ -171,6 +176,21 @@ Partial Class IReservation
         '
         Me.Authorisation.Text = "Autorisé par"
         Me.Authorisation.Width = 185
+        '
+        'DateEmprunt
+        '
+        Me.DateEmprunt.Text = "Date de l'emprunt"
+        Me.DateEmprunt.Width = 147
+        '
+        'DateRetour
+        '
+        Me.DateRetour.Text = "Date de retour"
+        Me.DateRetour.Width = 138
+        '
+        'Comments
+        '
+        Me.Comments.Text = "Commentaire"
+        Me.Comments.Width = 290
         '
         'IReservation
         '
@@ -201,4 +221,7 @@ Partial Class IReservation
     Friend WithEvents ID As ColumnHeader
     Friend WithEvents RentedBy As ColumnHeader
     Friend WithEvents Authorisation As ColumnHeader
+    Friend WithEvents DateEmprunt As ColumnHeader
+    Friend WithEvents DateRetour As ColumnHeader
+    Friend WithEvents Comments As ColumnHeader
 End Class

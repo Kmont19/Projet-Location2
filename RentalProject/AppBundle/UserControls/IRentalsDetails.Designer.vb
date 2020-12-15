@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class IRentalsDetails
     Inherits System.Windows.Forms.UserControl
 
     'UserControl overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class IRentalsDetails
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.BackButton = New System.Windows.Forms.Button()
@@ -200,11 +200,12 @@ Partial Class IRentalsDetails
         Me.DGVEquipments.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells
         Me.DGVEquipments.BackgroundColor = System.Drawing.Color.White
         Me.DGVEquipments.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DGVEquipments.Location = New System.Drawing.Point(19, 192)
+        Me.DGVEquipments.Location = New System.Drawing.Point(0, 192)
         Me.DGVEquipments.Name = "DGVEquipments"
+        Me.DGVEquipments.ReadOnly = True
         Me.DGVEquipments.RowHeadersWidth = 51
         Me.DGVEquipments.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DGVEquipments.Size = New System.Drawing.Size(484, 211)
+        Me.DGVEquipments.Size = New System.Drawing.Size(503, 211)
         Me.DGVEquipments.TabIndex = 108
         '
         'Label14

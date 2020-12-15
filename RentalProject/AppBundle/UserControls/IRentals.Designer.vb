@@ -35,6 +35,9 @@ Partial Class IRentals
         Me.ReturnButton = New System.Windows.Forms.Button()
         Me.RentButton = New System.Windows.Forms.Button()
         Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.DateRental = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.DateReturn = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.Comments = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.Panel5.SuspendLayout()
         Me.Panel6.SuspendLayout()
         Me.Panel7.SuspendLayout()
@@ -42,7 +45,7 @@ Partial Class IRentals
         '
         'ListView1
         '
-        Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ID, Me.RentedBy, Me.Authorisation})
+        Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ID, Me.RentedBy, Me.Authorisation, Me.DateRental, Me.DateReturn, Me.Comments})
         Me.ListView1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ListView1.FullRowSelect = True
         Me.ListView1.HideSelection = False
@@ -58,6 +61,7 @@ Partial Class IRentals
         'ID
         '
         Me.ID.Text = "ID"
+        Me.ID.Width = 32
         '
         'RentedBy
         '
@@ -197,6 +201,21 @@ Partial Class IRentals
         Me.Panel7.Size = New System.Drawing.Size(1004, 362)
         Me.Panel7.TabIndex = 3
         '
+        'DateRental
+        '
+        Me.DateRental.Text = "Date de l'emprunt"
+        Me.DateRental.Width = 163
+        '
+        'DateReturn
+        '
+        Me.DateReturn.Text = "Date de retour"
+        Me.DateReturn.Width = 121
+        '
+        'Comments
+        '
+        Me.Comments.Text = "Commentaires"
+        Me.Comments.Width = 301
+        '
         'IRentals
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -219,7 +238,6 @@ Partial Class IRentals
 
     End Sub
     Friend WithEvents ListView1 As ListView
-    Friend WithEvents ID As ColumnHeader
     Friend WithEvents RentedBy As ColumnHeader
     Friend WithEvents Authorisation As ColumnHeader
     Friend WithEvents Panel5 As Panel
@@ -231,4 +249,8 @@ Partial Class IRentals
     Friend WithEvents ReturnButton As Button
     Friend WithEvents RentButton As Button
     Friend WithEvents Panel7 As Panel
+    Friend WithEvents DateRental As ColumnHeader
+    Friend WithEvents DateReturn As ColumnHeader
+    Friend WithEvents Comments As ColumnHeader
+    Friend WithEvents ID As ColumnHeader
 End Class
