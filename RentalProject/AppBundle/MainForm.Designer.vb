@@ -27,7 +27,6 @@ Partial Class MainForm
         Me.Label1 = New System.Windows.Forms.Label()
         Me.MenuPanel = New System.Windows.Forms.Panel()
         Me.UsersButton = New System.Windows.Forms.Button()
-        Me.NotifyButton = New System.Windows.Forms.Button()
         Me.StatsButton = New System.Windows.Forms.Button()
         Me.TimesheetButton = New System.Windows.Forms.Button()
         Me.ReservationButton = New System.Windows.Forms.Button()
@@ -70,7 +69,6 @@ Partial Class MainForm
         '
         Me.MenuPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
         Me.MenuPanel.Controls.Add(Me.UsersButton)
-        Me.MenuPanel.Controls.Add(Me.NotifyButton)
         Me.MenuPanel.Controls.Add(Me.StatsButton)
         Me.MenuPanel.Controls.Add(Me.TimesheetButton)
         Me.MenuPanel.Controls.Add(Me.ReservationButton)
@@ -96,31 +94,13 @@ Partial Class MainForm
         Me.UsersButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(243, Byte), Integer))
         Me.UsersButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.UsersButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.UsersButton.Location = New System.Drawing.Point(0, 376)
+        Me.UsersButton.Location = New System.Drawing.Point(0, 329)
         Me.UsersButton.Margin = New System.Windows.Forms.Padding(2)
         Me.UsersButton.Name = "UsersButton"
         Me.UsersButton.Size = New System.Drawing.Size(150, 47)
         Me.UsersButton.TabIndex = 10
         Me.UsersButton.Text = "Utilisateurs"
         Me.UsersButton.UseVisualStyleBackColor = False
-        '
-        'NotifyButton
-        '
-        Me.NotifyButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
-        Me.NotifyButton.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.NotifyButton.Dock = System.Windows.Forms.DockStyle.Top
-        Me.NotifyButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
-        Me.NotifyButton.FlatAppearance.BorderSize = 2
-        Me.NotifyButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(243, Byte), Integer))
-        Me.NotifyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.NotifyButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NotifyButton.Location = New System.Drawing.Point(0, 329)
-        Me.NotifyButton.Margin = New System.Windows.Forms.Padding(2)
-        Me.NotifyButton.Name = "NotifyButton"
-        Me.NotifyButton.Size = New System.Drawing.Size(150, 47)
-        Me.NotifyButton.TabIndex = 9
-        Me.NotifyButton.Text = "Centre de notifications"
-        Me.NotifyButton.UseVisualStyleBackColor = False
         '
         'StatsButton
         '
@@ -305,7 +285,6 @@ Partial Class MainForm
     Friend WithEvents RentalsButton As Button
     Friend WithEvents ReturnButton As Button
     Friend WithEvents ReservationButton As Button
-    Friend WithEvents NotifyButton As Button
     Friend WithEvents StatsButton As Button
     Friend WithEvents TimesheetButton As Button
     Friend WithEvents UsersButton As Button

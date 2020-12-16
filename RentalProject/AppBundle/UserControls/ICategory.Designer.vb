@@ -109,10 +109,10 @@ Partial Class ICategory
         Me.SearchButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SearchButton.ForeColor = System.Drawing.Color.White
         Me.SearchButton.Image = Global.RentalProject.My.Resources.Resources.baseline_search_white_18dp
-        Me.SearchButton.Location = New System.Drawing.Point(615, 0)
+        Me.SearchButton.Location = New System.Drawing.Point(656, 0)
         Me.SearchButton.Margin = New System.Windows.Forms.Padding(2)
         Me.SearchButton.Name = "SearchButton"
-        Me.SearchButton.Size = New System.Drawing.Size(135, 62)
+        Me.SearchButton.Size = New System.Drawing.Size(94, 62)
         Me.SearchButton.TabIndex = 18
         Me.SearchButton.UseVisualStyleBackColor = False
         '
@@ -333,10 +333,10 @@ Partial Class ICategory
     Friend WithEvents WarningLabel As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents DeleteButton As Button
-    Friend WithEvents SearchButton As Button
     Friend WithEvents ModifyButton As Button
     Friend WithEvents Panel8 As Panel
     Friend WithEvents AddButton As Button
     Friend WithEvents Label5 As Label
     Friend WithEvents arrow As Label
+    Friend WithEvents SearchButton As Button
 End Class

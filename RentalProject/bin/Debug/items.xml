@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<ArrayOfItemInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemInfo>
+    <StartTime>2020-12-15T02:30:00</StartTime>
+    <EndTime>2020-12-15T03:00:00</EndTime>
+    <Text>test</Text>
+    <A>0</A>
+    <R>0</R>
+    <G>0</G>
+    <B>0</B>
+  </ItemInfo>
+  <ItemInfo>
+    <StartTime>2020-12-16T08:00:00</StartTime>
+    <EndTime>2020-12-16T10:30:00</EndTime>
+    <Text>Début de la période de location</Text>
+    <A>0</A>
+    <R>0</R>
+    <G>0</G>
+    <B>0</B>
+  </ItemInfo>
+  <ItemInfo>
+    <StartTime>2020-12-18T10:00:00</StartTime>
+    <EndTime>2020-12-18T11:30:00</EndTime>
+    <Text>Retour du matériel</Text>
+    <A>0</A>
+    <R>0</R>
+    <G>0</G>
+    <B>0</B>
+  </ItemInfo>
+  <ItemInfo>
+    <StartTime>2020-12-17T08:00:00</StartTime>
+    <EndTime>2020-12-17T17:00:00</EndTime>
+    <Text>Période de cour en informatique</Text>
+    <A>0</A>
+    <R>0</R>
+    <G>0</G>
+    <B>0</B>
+  </ItemInfo>
+</ArrayOfItemInfo>

@@ -40,6 +40,7 @@ Partial Class IReservSearch
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.SearchButton = New System.Windows.Forms.Button()
         Me.DetailsButton = New System.Windows.Forms.Button()
+        Me.Equipement = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.SuspendLayout()
@@ -163,7 +164,7 @@ Partial Class IReservSearch
         '
         'ListView1
         '
-        Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.Id, Me.RentedBy, Me.Authorisation})
+        Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.Id, Me.RentedBy, Me.Equipement, Me.Authorisation})
         Me.ListView1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ListView1.FullRowSelect = True
         Me.ListView1.HideSelection = False
@@ -184,12 +185,12 @@ Partial Class IReservSearch
         'RentedBy
         '
         Me.RentedBy.Text = "Réservé par"
-        Me.RentedBy.Width = 99
+        Me.RentedBy.Width = 236
         '
         'Authorisation
         '
         Me.Authorisation.Text = "Autorisé par"
-        Me.Authorisation.Width = 117
+        Me.Authorisation.Width = 272
         '
         'Panel3
         '
@@ -237,6 +238,11 @@ Partial Class IReservSearch
         Me.DetailsButton.Text = "Afficher les Détails"
         Me.DetailsButton.UseVisualStyleBackColor = False
         '
+        'Equipement
+        '
+        Me.Equipement.Text = "Equipement"
+        Me.Equipement.Width = 247
+        '
         'IReservSearch
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -275,4 +281,5 @@ Partial Class IReservSearch
     Friend WithEvents Panel3 As Panel
     Friend WithEvents SearchButton As Button
     Friend WithEvents DetailsButton As Button
+    Friend WithEvents Equipement As ColumnHeader
 End Class

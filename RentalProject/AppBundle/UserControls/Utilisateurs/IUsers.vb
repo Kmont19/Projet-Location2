@@ -16,7 +16,7 @@
         DGVUsers.SelectionMode = DataGridViewSelectionMode.FullRowSelect
     End Sub
 
-    Private Sub SearchButton_Click(sender As Object, e As EventArgs)
+    Private Sub SearchButton_Click(sender As Object, e As EventArgs) Handles SearchButton.Click
         Dim user As New IUserSearch(Me)
         user.Dock = DockStyle.Fill
         mainForm.InterfacePanel.Controls.Add(user)
@@ -46,7 +46,7 @@
         ModifyButton.Enabled = True
     End Sub
 
-    Private Sub ModifyButton_Click(sender As Object, e As EventArgs)
+    Private Sub ModifyButton_Click(sender As Object, e As EventArgs) Handles ModifyButton.Click
         If MessageBox.Show("Voulez-vous changer le statut de cet utilisateur?", "Attention", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) = DialogResult.Yes Then
             Dim selectIndex As Integer = DGVUsers.SelectedCells(0).RowIndex
             Dim selectRow As DataGridViewRow = DGVUsers.Rows(selectIndex)

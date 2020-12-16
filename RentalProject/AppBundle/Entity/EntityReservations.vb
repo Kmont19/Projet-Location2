@@ -119,7 +119,7 @@ Public Class EntityReservations
     Public Function getReservByReservFirstName(firstName As String) As DataTable
         Dim command As New MySqlCommand
         command.Connection = connection
-        command.CommandText = $"Select E.ID, initcap(concat(P.nom, ', ', P.prenom)), E2.nom as Nom_Équipement, initcap(E.autorisation) from reservation E inner join equipement E2 on E.noEquipement = E2.noEquipement inner join personne P on E.noPersonne = P.noPersonne where upper(P.prenom) like upper('{firstName}%') order by E.ID"
+        command.CommandText = $"Select E.ID, initcap(concat(P.nom, ', ', P.prenom)), E2.nom as Nom_Équipement, initcap(autorisation) as Autorisé_par from reservation E inner join equipement E2 on E.noEquipement = E2.noEquipement inner join personne P on E.noPersonne = P.noPersonne where upper(P.prenom) like upper('{firstName}%') order by E.ID"
         connection.Open()
         Dim reader = command.ExecuteReader()
         Dim table As New DataTable("Reserv")
@@ -132,7 +132,7 @@ Public Class EntityReservations
     Public Function getReservByReservName(name As String) As DataTable
         Dim command As New MySqlCommand
         command.Connection = connection
-        command.CommandText = $"Select E.ID, initcap(concat(P.nom, ', ', P.prenom)), E2.nom as Nom_Équipement, initcap(E.autorisation) from reservation E inner join equipement E2 on E.noEquipement = E2.noEquipement inner join personne P on E.noPersonne = P.noPersonne where upper(E.autorisation) like upper('{name}%') order by E.ID"
+        command.CommandText = $"Select E.ID, initcap(concat(P.nom, ', ', P.prenom)), E2.nom as Nom_Équipement, initcap(autorisation) as Autorisé_par from reservation E inner join equipement E2 on E.noEquipement = E2.noEquipement inner join personne P on E.noPersonne = P.noPersonne where upper(E.autorisation) like upper('{name}%') order by E.ID"
         connection.Open()
         Dim reader = command.ExecuteReader()
         Dim table As New DataTable("Reserv")

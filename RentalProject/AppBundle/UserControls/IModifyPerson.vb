@@ -28,15 +28,15 @@ Public Class IModifyPerson
         For Each it As DataRow In data.Rows
             'Inserting values into textBoxes
             ID.Text = it.Item(0)
-            LastName.Text = it.Item(1)
-            FirstName.Text = it.Item(2)
-            Status.Text = it.Item(3)
-            Department.Text = it.Item(4)
-            Service.Text = it.Item(5)
-            Office.Text = it.Item(6)
-            Phone.Text = it.Item(7)
-            Extension.Text = it.Item(8)
-            Email.Text = it.Item(9)
+            LastName.Text = it.Item(2)
+            FirstName.Text = it.Item(3)
+            Status.Text = it.Item(4)
+            Department.Text = it.Item(5)
+            Service.Text = it.Item(6)
+            Office.Text = it.Item(7)
+            Phone.Text = it.Item(8)
+            Extension.Text = it.Item(9)
+            Email.Text = it.Item(10)
         Next
     End Function
 

@@ -129,12 +129,11 @@ Partial Class IUserSearch
         Me.DGVUsers.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.DGVUsers.BackgroundColor = System.Drawing.Color.White
         Me.DGVUsers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DGVUsers.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.DGVUsers.Location = New System.Drawing.Point(0, 50)
+        Me.DGVUsers.Location = New System.Drawing.Point(205, 50)
         Me.DGVUsers.Name = "DGVUsers"
         Me.DGVUsers.ReadOnly = True
         Me.DGVUsers.RowHeadersWidth = 51
-        Me.DGVUsers.Size = New System.Drawing.Size(1004, 492)
+        Me.DGVUsers.Size = New System.Drawing.Size(799, 436)
         Me.DGVUsers.TabIndex = 25
         '
         'Panel4

@@ -120,7 +120,7 @@
         stats.BringToFront()
     End Sub
 
-    Private Sub NotifyButton_Click(sender As Object, e As EventArgs) Handles NotifyButton.Click
+    Private Sub NotifyButton_Click(sender As Object, e As EventArgs)
         InterfacePanel.Controls.Clear()
         Dim notif As New INotifCenter()
         notif.Dock = DockStyle.Fill
@@ -142,9 +142,5 @@
         users.Dock = DockStyle.Fill
         InterfacePanel.Controls.Add(users)
         users.BringToFront()
-    End Sub
-
-    Private Sub InterfacePanel_Paint(sender As Object, e As PaintEventArgs) Handles InterfacePanel.Paint
-
     End Sub
 End Class

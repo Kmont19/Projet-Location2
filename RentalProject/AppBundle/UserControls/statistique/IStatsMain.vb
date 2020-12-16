@@ -5,12 +5,12 @@
     Private out As Integer
 
     Private Sub btDessiner_Click(sender As Object, e As EventArgs) Handles btDessiner.Click
-        Me.GraphNbrLocation.Series("Location").Points.Clear()
-        Me.GraphNbrLocation.Series("Location").Points.AddXY("Lundi", NbrLocationParJour(1))
-        Me.GraphNbrLocation.Series("Location").Points.AddXY("Mardi", NbrLocationParJour(2))
-        Me.GraphNbrLocation.Series("Location").Points.AddXY("Mercredi", NbrLocationParJour(3))
-        Me.GraphNbrLocation.Series("Location").Points.AddXY("Jeudi", NbrLocationParJour(4))
-        Me.GraphNbrLocation.Series("Location").Points.AddXY("Vendredi", NbrLocationParJour(5))
+        Me.GraphNbrLocation.Series("Locations").Points.Clear()
+        Me.GraphNbrLocation.Series("Locations").Points.AddXY("Lundi", NbrLocationParJour(1))
+        Me.GraphNbrLocation.Series("Locations").Points.AddXY("Mardi", NbrLocationParJour(2))
+        Me.GraphNbrLocation.Series("Locations").Points.AddXY("Mercredi", NbrLocationParJour(3))
+        Me.GraphNbrLocation.Series("Locations").Points.AddXY("Jeudi", NbrLocationParJour(4))
+        Me.GraphNbrLocation.Series("Locations").Points.AddXY("Vendredi", NbrLocationParJour(5))
 
     End Sub
 

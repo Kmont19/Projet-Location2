@@ -60,12 +60,7 @@ Public Class ICategory
         Me.SendToBack()
     End Sub
 
-    Private Sub SearchButton_Click(sender As Object, e As EventArgs) Handles SearchButton.Click
-        Dim search As New ICategorySearch(Me)
-        search.Dock = DockStyle.Fill
-        MainForm.InterfacePanel.Controls.Add(search)
-        search.BringToFront()
-    End Sub
+
 
     Private Sub ModifyButton_Click(sender As Object, e As EventArgs) Handles ModifyButton.Click
         Dim categoryName = InputBox("Entrez le nouveau nom de la catégorie", "Modifier catégorie")
@@ -101,5 +96,12 @@ Public Class ICategory
         Else
             WarningLabel.Show()
         End If
+    End Sub
+
+    Private Sub SearchButton_Click(sender As Object, e As EventArgs) Handles SearchButton.Click
+        Dim search As New ICategorySearch(Me)
+        search.Dock = DockStyle.Fill
+        MainForm.InterfacePanel.Controls.Add(search)
+        search.BringToFront()
     End Sub
 End Class

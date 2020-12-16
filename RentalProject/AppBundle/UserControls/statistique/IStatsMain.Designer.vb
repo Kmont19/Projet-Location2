@@ -58,7 +58,7 @@ Partial Class IStatsMain
         Series1.BorderColor = System.Drawing.Color.Red
         Series1.ChartArea = "ChartArea1"
         Series1.Legend = "Legend1"
-        Series1.Name = "Location"
+        Series1.Name = "Locations"
         Me.GraphNbrLocation.Series.Add(Series1)
         Me.GraphNbrLocation.Size = New System.Drawing.Size(437, 375)
         Me.GraphNbrLocation.TabIndex = 1

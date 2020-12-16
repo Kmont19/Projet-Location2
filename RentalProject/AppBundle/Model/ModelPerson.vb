@@ -44,8 +44,8 @@ Public Class ModelPerson
             Dim command As New MySqlCommand
             command.Connection = connection
             connection.Open()
-            command.CommandText = $"insert into personne
-            values('','{matricule}','{nom}','{prenom}', '{statut}', '{departement}', '{service}', '{bureau}', '{telephone}', {poste}, '{email}')"
+            command.CommandText = $"insert into personne (matricule, nom, prenom, statut, nomDepartement, nomService, noBureau, telephone, poste, email)
+            values('{matricule}','{nom}','{prenom}', '{statut}', '{departement}', '{service}', '{bureau}', '{telephone}', '{poste}', '{email}')"
 
             Dim result = command.ExecuteNonQuery()
             connection.Close()
