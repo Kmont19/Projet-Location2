@@ -225,7 +225,7 @@ Public Class IAddReservation
         End If
     End Sub
 
-    Private Sub NewPersonButton_Click(sender As Object, e As EventArgs) Handles NewPersonButton.Click
+    Private Sub NewPersonButton_Click(sender As Object, e As EventArgs)
         Dim person As New IAddPersonReserv(Me, New IPerson(MainForm))
         person.Dock = DockStyle.Fill
         MainForm.InterfacePanel.Controls.Add(person)
